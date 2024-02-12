@@ -1,5 +1,5 @@
 // components
-import { Navbar1 } from 'components/navbars';
+import { Navbar3 } from 'components/navbars';
 import { Hero12 } from 'components/heros';
 import BackToTop from 'components/BackToTop';
 import { Footer1 } from 'components/footer';
@@ -19,13 +19,8 @@ const Saas = () => {
     return (
         <>
             <div className="header-2 primary">
-                <Navbar1
-                    navClass="navbar-light zindex-10"
-                    isSticky={false}
-                    fixedWidth
-                    hideSearch
-                    buttonClass="btn-primary btn-sm"
-                />
+            <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm" />
+
                 <Hero12 />
             </div>
 

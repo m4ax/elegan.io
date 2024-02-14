@@ -57,10 +57,12 @@ const Startup = () => {
             {/* clients - reviews  */}
             <ClientsReview />
 
+            <Features />
+
             <VideoFeature />
 
             {/* features */}
-            <Features />
+
 
             <Feature4  features={features}  />
 

@@ -13,28 +13,27 @@ const Hero5 = () => {
                 <Row className="align-items-center">
                     <Col lg={12}>
                         <div
-                            className="rounded d-inline-block mb-4 px-3 py-2 alert bg-soft-warning"
+                            className="rounded d-inline-block mb-4 px-3 py-2 alert bg-purp"
                             data-aos="fade-right"
                             data-aos-duration="1000"
                         >
                             <Link to="#">
                                 <div className="d-flex align-items-center">
-                                    <Badge pill bg="orange" className="px-2 py-1">
+                                    <Badge pill bg="under" className="px-2 py-1">
                                         New!
                                     </Badge>
-                                    <div className="mx-3">Check our latest article on design</div>
+                                    <div className="mx-3">Check our latest article on onboarding</div>
                                 </div>
                             </Link>
                         </div>
 
                         <h1 className="hero-title fw-medium">
-                            The data importer your{' '}
-                            <span className="highlight highlight-under d-inline-block">customers will love.</span>
+                           You can make your onboarding process{' '}
+                            <span className="highlight highlight-under d-inline-block"> painless.</span>
                         </h1>
 
                         <p className="mt-4 fs-18 mb-3 mb-sm-6 w-75">
-                            We're a top-notch web design and development team helping business to craft the meaningful
-                            and interactive product experiences.
+                            Your customers should not have to work to use your product. Make it easy for them to get started. Your competitors are making it easier to use their products. You should too.
                         </p>
 
                         <Link to="#" className="btn btn-secondary">

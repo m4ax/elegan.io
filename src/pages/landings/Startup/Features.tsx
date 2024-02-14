@@ -14,12 +14,14 @@ const Features = () => {
                     <Col lg={5}>
                         <div className="mb-4 mb-lg-0">
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
-                                Feature
+                                Problem
                             </Badge>
-                            <h1 className="display-4 fw-medium mb-3">Automate everything</h1>
+                            <h1 className="display-4 fw-medium mb-3">Are you making customers manually transform their data?</h1>
                             <p className="text-muted mx-auto mb-4 pb-3">
-                                You don't need to manully follow up with your visitors. The Prompt takes care of it and
-                                follow up automatically with them to understand their needs
+                            Customers must waste time manually restructuring their data to fit your system's format. 
+                            This creates immediate friction, disrupts the onboarding flow, and ultimately delays the customer's realisation of your product's benefits. 
+                            The customer may turn to you, to fix their data, increasing your hidden onboarding costs.
+                            Not having this automated reduces profitability.
                             </p>
                             <Link to="#">
                                 Learn more
@@ -49,10 +51,14 @@ const Features = () => {
                     </Col>
                     <Col lg={{ span: 5, offset: 1 }}>
                         <div className="mt-4 mt-lg-0">
-                            <h1 className="display-4 fw-medium mb-3">Auto-tune your marketing campaigns</h1>
+                        <Badge pill bg="" className="badge-soft-danger px-2 py-1">
+                                Problem
+                            </Badge>
+                            <h1 className="display-4 fw-medium mb-3">Is your import success rate above 90%?</h1>
                             <p className="text-muted mx-auto mb-4 pb-3">
-                                The prompts keeps an eye on your all marketting effort and auto tune the marketing
-                                campaigns settings to make them perform better
+                            Failed or incomplete data imports prevent customers from immediately using the product as intended. 
+                            Why continue with your product if they have to put in work to test it? 
+                            This leads to user frustration, potential product abandonment and negatively impacts your brand reputation.
                             </p>
                             <Link to="#">
                                 Learn more

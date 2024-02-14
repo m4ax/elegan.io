@@ -15,7 +15,7 @@ const VideoFeature = () => {
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
                                 Free Cloud Account!
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">Smart auto deployment</h1>
+                            <h1 className="display-5 fw-medium mb-2">You ca </h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
                                 Prompts automatically deploys your changes on the cloud
                             </h5>

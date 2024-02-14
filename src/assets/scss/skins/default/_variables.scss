@@ -46,6 +46,7 @@ $grays: (
 // scss-docs-start color-variables
 $blue: #af5dea;
 $lightp: #9939ded6;
+$superlightp: #f2e6fa;
 $indigo: #5c7cfa;
 $purple: #a499ff;
 $pink: #f06595;
@@ -80,6 +81,7 @@ $primary: $blue;
 $secondary: $gray-700;
 $success: $green;
 $under: $lightp;
+$purp: $superlightp;
 $info: $cyan; ;
 $warning: $yellow;
 $danger: $red;
@@ -95,6 +97,7 @@ $theme-colors: (
   "success": $success,
   "info": $info,
   "under": $under,
+  "purp": $purp,
   "warning": $warning,
   "danger": $danger,
   "light": $light,

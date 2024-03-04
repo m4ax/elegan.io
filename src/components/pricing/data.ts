@@ -5,7 +5,7 @@ export const plans: PlanItem[] = [
     {
         id: 1,
         name: 'Starter',
-        price: '49',
+        price: '0',
         duration: '/ month',
         features: [
             'Up to 600 minutes usage time',

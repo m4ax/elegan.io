@@ -32,14 +32,14 @@ const Pricing = ({ planFeatures }: PricingProps) => {
                                         <th className="w-50"></th>
                                         <th>
                                             <span className="text-dark">Starter</span>
-                                            <small className="d-block text-body fw-normal">$40/mo</small>
+                                            <small className="d-block text-body fw-normal">£0/mo</small>
                                         </th>
                                         <th className="border-start border-end">
                                             <span className="text-dark">Professional</span>
                                             <Badge bg="orange" pill className="ms-1">
                                                 Popular
                                             </Badge>
-                                            <small className="d-block text-body fw-normal">$60/mo</small>
+                                            <small className="d-block text-body fw-normal">£0/mo</small>
                                         </th>
                                         <th>
                                             <span className="text-dark">Enterprise</span>

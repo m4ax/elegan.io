@@ -6,9 +6,9 @@ const Features3 = () => {
     return (
         <section className="position-relative pb-6 pt-lg-6 pt-4 features-3">
             <Container data-aos="fade-up" data-aos-duration="500">
-                <Row className="justify-content-center">
-                    <Col className="text-center">
-                        <h3 className="fw-medium mb-5">Instantly accept new customer data</h3>
+                <Row className="justify-content-center ">
+                    <Col className="text-center"> 
+                        <h1 className="display-5 fw-semibold spacing-elegan-you">Why Elegan</h1>
                     </Col>
                 </Row>
 
@@ -26,7 +26,7 @@ const Features3 = () => {
                     <Col lg={3} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Improve first impressions
+                            Protect First Impressions
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
@@ -35,7 +35,7 @@ const Features3 = () => {
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Scale with AI
+                            Scale with AI 
                         </h6>
                     </Col>
                     <Col lg={3} md={6}>

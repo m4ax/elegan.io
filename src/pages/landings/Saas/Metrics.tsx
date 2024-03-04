@@ -20,7 +20,7 @@ const Metrics = ({ features }: FeatureProps) => {
                         </Badge>
                         <h1 className="display-5 fw-semibold">How do you compare?</h1>
                         <p className="text-muted mx-auto">
-                            Useful questions that you can answer to <span className="text-primary fw-bold">explore</span> hidden problems.
+                            Solid questions to understand  <span className="text-primary fw-bold"> potential</span>  problems.
                         </p>
                     </Col>
                 </Row>

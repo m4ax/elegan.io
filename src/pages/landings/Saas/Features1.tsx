@@ -91,7 +91,7 @@ const Features1 = ({ features, containerClass }: FeaturesProps) => {
                         </Badge>
                         <h2 className="display-5 fw-medium big">You’re letting competitors steal low hanging fruit.</h2>
                         <p className="text-muted mx-auto">
-                            Start working with <span className="text-primary fw-bold">Elegan</span> to take back control.
+                            Start using <span className="text-primary fw-bold">Elegan</span> to take action.
                         </p>
                     </Col>
                 </Row>

@@ -75,10 +75,10 @@ const plans: PlanItem[] = [
 
 const features3: Feature3[] = [
     {
-        variant: 'primary',
-        icon: 'mail',
-        title: 'Support tickets',
-        description: 'How many of your resources does this eat up?',
+        variant: 'teal',
+        icon: 'user',
+        title: 'Customer experience',
+        description: 'Do your customers find your data onboarding painless?',
     },
     {
         variant: 'orange',
@@ -87,28 +87,28 @@ const features3: Feature3[] = [
         description: 'How long to get a new customer up and running?',
     },
     {
+        variant: 'primary',
+        icon: 'mail',
+        title: 'Customer queries',
+        description: 'How many come from data importing? What is the cost?',
+    },
+    {
         variant: 'info',
         icon: 'percent',
         title: 'Conversion rate',
-        description: 'How many of your lost customers abandoned early?',
-    },
-    {
-        variant: 'teal',
-        icon: 'user',
-        title: 'Customer experience',
-        description: 'Do your customers find your data onboarding painless?',
-    },
-    {
-        variant: 'warning',
-        icon: 'alert-circle',
-        title: 'Competition',
-        description: 'Have your competition solved this yet?',
+        description: 'How many of your lost customers did not upload data? Or did,  but did not convert?',
     },
     {
         variant: 'danger',
         icon: 'dollar-sign',
         title: 'Data migration cost',
         description: 'How much does it cost you? How about your customer?',
+    },
+    {
+        variant: 'warning',
+        icon: 'alert-circle',
+        title: 'Competition',
+        description: 'Have your competition solved this yet?',
     },
 ];
 

@@ -17,7 +17,7 @@ const Clients = () => {
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
                             Clients
                         </Badge>
-                        <h1 className="display-5 fw-medium">The smart people management you need</h1>
+                        <h1 className="display-5 fw-medium">The smart onboarder you need</h1>
                         <p className="text-muted mx-auto">
                             21,000+ organizations trust <span className="text-primary fw-bold">Prompt</span> to drive
                             perfomance & engagement

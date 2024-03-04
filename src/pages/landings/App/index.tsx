@@ -8,9 +8,10 @@ import Features2 from './Features2';
 import Testimonials from './Testimonials';
 import CTA from './CTA';
 import Footer from './Footer';
+import Features3 from './Features3';
 
 // dummy data
-import { features, features2 } from './data';
+import { features, features2, features3 } from './data';
 
 const App = () => {
     return (
@@ -29,6 +30,8 @@ const App = () => {
 
             {/* testimonials */}
             <Testimonials />
+
+            <Features3 features={features3} />
 
             {/* cta */}
             <CTA />

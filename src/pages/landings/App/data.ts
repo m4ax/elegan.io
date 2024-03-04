@@ -54,4 +54,28 @@ const features2: Feature2[] = [
     },
 ];
 
-export { features, features2 };
+
+const features3: Feature[] = [
+    {
+        variant: 'primary',
+        icon: 'mail',
+        title: 'Automated Campaigns',
+        description: 'Stop the back and forth. Make it easy for customers to use your product.',
+    },
+    {
+        variant: 'danger',
+        icon: 'bar-chart',
+        title: 'Business Analytics',
+        description: 'Mauris dapibus blandit hendrerit. Proin auctor est at bibendum odio faucibus sodales.',
+    },
+    {
+        variant: 'info',
+        icon: 'settings',
+        title: 'Easy Setup',
+        description: 'Fusce mattis nibh vel tortor scelerisque, a pretium dolor posuere.',
+    },
+];
+
+
+
+export { features, features2, features3 };

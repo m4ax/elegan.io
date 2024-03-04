@@ -11,3 +11,11 @@ export type Feature2 = {
     title: string;
     description: string;
 }
+
+
+export type Feature3 = {
+        variant: string;
+        icon: string;
+        title: string;
+        description: string;
+}

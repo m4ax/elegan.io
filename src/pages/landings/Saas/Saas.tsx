@@ -13,7 +13,8 @@ import Pricing from './Pricing';
 import FAQs from './FAQs';
 
 // dummy data
-import { features, plans } from './data';
+import { features, plans, features3 } from './data';
+import Metrics from './Metrics';
 
 const Saas = () => {
     return (
@@ -29,13 +30,17 @@ const Saas = () => {
 
             <Features2 />
 
-            <Features3 />
+
 
             {/* clients */}
-            <Clients />
+            {/* <Clients /> */}
 
             {/* testimonials */}
-            <Testimonials />
+            {/* <Testimonials /> */}
+
+            <Metrics features={features3}  />
+
+            <Features3 />
 
             {/* FAQs */}
             <FAQs />

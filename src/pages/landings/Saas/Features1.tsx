@@ -87,7 +87,7 @@ const Features1 = ({ features, containerClass }: FeaturesProps) => {
                 <Row className="justify-content-center">
                     <Col className="text-center">
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
-                            Features
+                            Problem
                         </Badge>
                         <h2 className="display-5 fw-medium big">You’re letting competitors steal low hanging fruit.</h2>
                         <p className="text-muted mx-auto">

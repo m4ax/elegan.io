@@ -1,7 +1,7 @@
 // types
 import { PlanItem } from 'components/pricing';
 
-import { Feature } from './types';
+import { Feature, Feature3 } from './types';
 
 const features: Feature[] = [
     {
@@ -14,7 +14,7 @@ const features: Feature[] = [
     },
     {
         avatar: 'user-plus',
-        title: "You are making potential customers work too hard.",
+        title: "You are making new customers work too hard.",
         description: "Forcing new users to manually adjust their data to match your system's requirements is painful. Potential customers are made to jump through hoops just to use your product.",
         variant: 'success',
         containerClass: 'd-flex border-bottom py-4',
@@ -73,4 +73,44 @@ const plans: PlanItem[] = [
     },
 ];
 
-export { features, plans };
+const features3: Feature3[] = [
+    {
+        variant: 'primary',
+        icon: 'mail',
+        title: 'Support tickets',
+        description: 'How many of your resources does this eat up?',
+    },
+    {
+        variant: 'orange',
+        icon: 'clock',
+        title: 'Time to value',
+        description: 'How long to get a new customer up and running?',
+    },
+    {
+        variant: 'info',
+        icon: 'percent',
+        title: 'Conversion rate',
+        description: 'How many of your lost customers abandoned early?',
+    },
+    {
+        variant: 'teal',
+        icon: 'user',
+        title: 'Customer experience',
+        description: 'Do your customers find your data onboarding painless?',
+    },
+    {
+        variant: 'warning',
+        icon: 'alert-circle',
+        title: 'Competition',
+        description: 'Have your competition solved this yet?',
+    },
+    {
+        variant: 'danger',
+        icon: 'dollar-sign',
+        title: 'Data migration cost',
+        description: 'How much does it cost you? How about your customer?',
+    },
+];
+
+
+export { features, plans, features3 };

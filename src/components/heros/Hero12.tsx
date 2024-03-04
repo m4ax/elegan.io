@@ -17,7 +17,8 @@ const Hero12 = () => {
                                 <span className="highlight highlight-under d-inline-block">automation</span> for your saas
                             </h1>
                             <p className="fs-17 text-muted pt-3">
-                                You are letting your competitors steal low hanging fruit. Don't make customers work to use your product.
+              
+                            Your new customer's data is in a different format. We automatically convert it. Don't make them wait.
                             </p>
 
                             <div className="pt-5">

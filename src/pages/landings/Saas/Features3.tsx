@@ -8,7 +8,7 @@ const Features3 = () => {
             <Container data-aos="fade-up" data-aos-duration="500">
                 <Row className="justify-content-center">
                     <Col className="text-center">
-                        <h3 className="fw-medium mb-5">Many more powerful features</h3>
+                        <h3 className="fw-medium mb-5">Instantly accept new customer data</h3>
                     </Col>
                 </Row>
 
@@ -16,25 +16,26 @@ const Features3 = () => {
                     <Col lg={3} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Accept any data format
-                        </h6>
-                        <h6 className="fw-medium fs-16 mb-4">
-                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Auto header mapping
-                        </h6>
-                    </Col>
-                    <Col lg={3} md={6}>
-                        <h6 className="fw-medium fs-16 mb-4">
-                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Auto format data
+                            Plug & play solution
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
                             White labelling
                         </h6>
+                    </Col>
+                    <Col lg={3} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            No development time
+                            Improve first impressions
+                        </h6>
+                        <h6 className="fw-medium fs-16 mb-4">
+                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
+                           
+                            Reduce customer journey
+                        </h6>
+                        <h6 className="fw-medium fs-16 mb-4">
+                            <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
+                            Scale with AI
                         </h6>
                     </Col>
                     <Col lg={3} md={6}>
@@ -48,13 +49,13 @@ const Features3 = () => {
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Error correction
+                            No dev time
                         </h6>
                     </Col>
                     <Col lg={3} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Data secruity
+                            Retain data control
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />

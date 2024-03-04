@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Accordion, AccordionContext, Card, useAccordionButton } from 'react-bootstrap';
 import FeatherIcon from 'feather-icons-react';
 import classNames from 'classnames';
+import { networkInterfaces } from 'os';
 
 type CustomToggleProps = {
     children: React.ReactNode;
@@ -39,20 +40,20 @@ const CustomToggle = ({ children, eventKey, containerClass, linkClass, callback 
 const FAQContent = () => {
     const faqs = [
         {
-            question: 'Can I use this template for my client?',
-            ans: ' Yup, the marketplace license allows you to use this theme in any end products.For more information on licenses, please refere license terms on marketplace.',
+            question: 'I want to see how it works.',
+            ans: "Book a call. We'll show you.",
         },
         {
-            question: 'Can this theme work with WordPress?',
-            ans: "No. This is a HTML template. It won't directly with WordPress, though you can convert this into WordPress compatible theme.",
+            question: 'How long is set up?',
+            ans: "Typically a few days.",
         },
         {
-            question: 'How do I get help with the theme?',
-            ans: 'Use our dedicated support email (support@coderthemes.com) to send your issues or feedback.We are here to help anytime.',
+            question: 'What if my data is confidential?',
+            ans: "You can host our services yourself. We will never touch your data.",
         },
         {
-            question: 'Will you regularly give updates of Prompt ?',
-            ans: 'Yes, We will update the Prompt regularly. All the future updates would be available without any cost.',
+            question: "Why can't I build this internally?",
+            ans: "You can. But, if you want excellence and you wan't it now - you can't.",
         },
     ];
 

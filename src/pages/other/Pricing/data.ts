@@ -5,7 +5,7 @@ import { Benefit } from '../Career/types';
 const plans: PlanItem[] = [
     {
         id: 1,
-        name: 'Starter',
+        name: 'Limited',
         price: '0',
         duration: '/ month',
         features: [
@@ -13,13 +13,13 @@ const plans: PlanItem[] = [
             'Max 10 000 rows',
             'Simple auto mapping',
             '£1 per import',
-            '3 free imports a month',
+            '5 free imports a month',
         ],
         isRecommended: false,
     },
     {
         id: 2,
-        name: 'Business',
+        name: 'Access',
         price: '465',
         duration: '/ month',
         features: [
@@ -27,14 +27,14 @@ const plans: PlanItem[] = [
             'Whitelabel',
             'Fix in app',
             'Technical support',
-            'AI Integration',
+            'AI Integrated',
         ],
         isRecommended: true,
         isPopular: true,
     },
     {
         id: 3,
-        name: 'Business unlimited',
+        name: 'Unlimited',
         price: '1985',
         duration: '/ month',
         features: [

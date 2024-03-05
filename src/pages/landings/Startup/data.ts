@@ -12,19 +12,19 @@ import ac from 'assets/images/brands/ac.jpeg';
 const integrations: Integration[] = [
     {
         appLogo: slack,
-        app: 'Slack',
+        app: 'Snowflake',
         description:
             'Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go',
     },
     {
         appLogo: fb,
-        app: 'Facebook Lead Ads',
+        app: 'Postgres',
         description:
             'Facebook lead ads make signing up for business information easy for people and more valuable for businesses',
     },
     {
         appLogo: salesforce,
-        app: 'Salesforce',
+        app: 'API Gateway',
         description: 'Salesforce is a leading enterprise customer relationship manager (CRM) application',
     },
     {
@@ -39,14 +39,14 @@ const integrations: Integration[] = [
     },
     {
         appLogo: ac,
-        app: 'ActiveCampaign',
+        app: 'SQL Server',
         description: 'ActiveCampaign combines all aspects of email marketing into a single and easy- to - use platform',
     },
 ];
 
 const planFeatures: PlanFeature[] = [
     {
-        name: 'Landing pages',
+        name: 'Auto fix',
         starter: {
             available: true,
         },
@@ -58,19 +58,7 @@ const planFeatures: PlanFeature[] = [
         },
     },
     {
-        name: 'Drag-and-drop editor',
-        starter: {
-            available: false,
-        },
-        professional: {
-            available: true,
-        },
-        enterprise: {
-            available: true,
-        },
-    },
-    {
-        name: 'Email marketing',
+        name: 'Custom functions & validations',
         starter: {
             available: true,
         },
@@ -82,20 +70,32 @@ const planFeatures: PlanFeature[] = [
         },
     },
     {
-        name: 'Ad retargeting',
+        name: 'Unlimited monthly rows',
         starter: {
             available: false,
             addon: true,
         },
         professional: {
-            available: false,
+            available: true,
         },
         enterprise: {
             available: true,
         },
     },
     {
-        name: 'Messenger integration',
+        name: 'Whitelabel',
+        starter: {
+            available: false,
+        },
+        professional: {
+            available: true,
+        },
+        enterprise: {
+            available: true,
+        },
+    },
+    {
+        name: 'Private hosting',
         starter: {
             available: false,
         },
@@ -103,46 +103,30 @@ const planFeatures: PlanFeature[] = [
             available: false,
         },
         enterprise: {
-            available: true,
-        },
-    },
-    {
-        name: 'Live chat',
-        starter: {
-            available: false,
-        },
-        professional: {
             available: false,
             addon: true,
         },
-        enterprise: {
-            available: true,
-        },
     },
     {
-        name: 'Conversational bots',
-        starter: {
-            available: false,
+        "name": "Cost per record",
+        "starter": {
+            "available": false,
+            "addon": true,
+            "price": "£0.0010/row" // Example, adjust as needed
         },
-        professional: {
-            available: true,
+        "professional": {
+            "available": false,
+            "addon": true,
+            "price": "£0.0005/row" // Example, adjust as needed
         },
-        enterprise: {
-            available: true,
-        },
-    },
-    {
-        name: 'SEO recommendations & optimizations',
-        starter: {
-            available: false,
-        },
-        professional: {
-            available: true,
-        },
-        enterprise: {
-            available: true,
-        },
-    },
+        "enterprise": {
+            "available": false,
+            "addon": true,
+            "price": "£0.0001/row"
+        }
+    }
+    
+
 ];
 
 export { integrations, planFeatures };

@@ -14,9 +14,9 @@ const Features = () => {
                     <Col lg={5}>
                         <div className="mb-4 mb-lg-0">
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
-                                Problem
+                                Step 1
                             </Badge>
-                            <h1 className="display-4 fw-medium mb-3">Are you making customers manually transform their data?</h1>
+                            <h1 className="display-4 fw-medium mb-3">Your customer uploads their data</h1>
                             <p className="text-muted mx-auto mb-4 pb-3">
                             Customers must waste time manually restructuring their data to fit your system's format. 
                             This creates immediate friction, disrupts the onboarding flow, and ultimately delays the customer's realisation of your product's benefits. 
@@ -52,9 +52,9 @@ const Features = () => {
                     <Col lg={{ span: 5, offset: 1 }}>
                         <div className="mt-4 mt-lg-0">
                         <Badge pill bg="" className="badge-soft-danger px-2 py-1">
-                                Problem
+                                Step 2
                             </Badge>
-                            <h1 className="display-4 fw-medium mb-3">Is your import success rate above 90%?</h1>
+                            <h1 className="display-4 fw-medium mb-3">We auto map it to your structure</h1>
                             <p className="text-muted mx-auto mb-4 pb-3">
                             Failed or incomplete data imports prevent customers from immediately using the product as intended. 
                             Why continue with your product if they have to put in work to test it? 

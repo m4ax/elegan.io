@@ -18,7 +18,7 @@ const Feature4 = ({ features }: FeatureProps) => {
     return (
         <section className="py-4">
             <Container className="bg-soft-warning p-5 rounded-lg" data-aos="fade-up" data-aos-duration="700">
-                <h4 className="display-5 fw-medium mb-2">Prompt works on Every Device</h4>
+                <h4 className="display-5 fw-medium mb-2">Elegan makes it easy to import new customer data </h4>
                 <Row className="align-items-center">
                     <Col lg={8}>
                         <ul className="list-inline mb-0 mt-4">
@@ -37,12 +37,12 @@ const Feature4 = ({ features }: FeatureProps) => {
                     <Col lg={4}>
                         <div className="text-lg-center mt-5 mt-lg-0">
                             <Link to="#" className="btn btn-primary rounded">
-                                Get Propmt for Free
+                                Try for Free
                                 <FeatherIcon icon="arrow-right" className="icon-xs ms-1" />
                             </Link>
                             <p className="text=muted mt-2 fs-12">
-                                Looking for older versions?
-                                <Link to="#">Click Here</Link>
+                                Unsure where to start?
+                              {' '}  <Link to="#">Click Here</Link>
                             </p>
                         </div>
                     </Col>

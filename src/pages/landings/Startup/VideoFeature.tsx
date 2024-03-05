@@ -13,11 +13,11 @@ const VideoFeature = () => {
                     <Col lg={5}>
                         <div className="mb-lg-0 mb-4" data-aos="fade-right" data-aos-duration="600">
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
-                                Free Cloud Account!
+                                Step 1
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">You ca </h1>
+                            <h1 className="display-5 fw-medium mb-2">Your customer uploads data</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
-                                Prompts automatically deploys your changes on the cloud
+                                Any data format accepted!
                             </h5>
 
                             <div className="d-flex mb-3">
@@ -27,7 +27,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Auto saves the files, one-click sync
+                                    No manual work 
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Auto track every changes/revision
+                                    Customer never leaves platform
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Modern way to collaborate with team
+                                Any data format allowed
                                 </div>
                             </div>
                         </div>
@@ -78,11 +78,11 @@ const VideoFeature = () => {
                     <Col lg={{ span: 5, offset: 1 }}>
                         <div className="mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="700">
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
-                                Auto Sync
+                                Step 2
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">AutoSync deployment</h1>
+                            <h1 className="display-5 fw-medium mb-2">Elegan AI formats data to your schema</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
-                                Prompts automatically sync your scheduled sync configuration
+                                Your clients data is transformed to your structure by us.
                             </h5>
 
                             <div className="d-flex mb-3">
@@ -92,7 +92,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Auto saves the files, one-click sync
+                                    Instantly accept competitors data format
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Auto saves the files, one-click sync
+                                    Scale with artificial intelligence
                                 </div>
                             </div>
 
@@ -114,7 +114,119 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    A powerful command line interface
+                                    Clean customer journey
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row className="align-items-center pt-9">
+                    <Col lg={5}>
+                        <div className="mb-lg-0 mb-4" data-aos="fade-right" data-aos-duration="600">
+                            <Badge pill bg="" className="badge-soft-danger px-2 py-1">
+                                Step 3
+                            </Badge>
+                            <h1 className="display-5 fw-medium mb-2">We'll help fix any errors</h1>
+                            <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
+                                Your customer does not have to leave the platform
+                            </h5>
+
+                            <div className="d-flex mb-3">
+                                <div className="list-inline-item me-3 flex-shrink-0">
+                                    <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                                        <FeatherIcon icon="share" className="icon-dual-primary" />
+                                    </span>
+                                </div>
+                                <div className="fw-medium fs-16 align-self-center flex-grow-1">
+                                    Improve customer experience
+                                </div>
+                            </div>
+
+                            <div className="d-flex mb-3">
+                                <div className="list-inline-item me-3 flex-shrink-0">
+                                    <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                                        <FeatherIcon icon="git-merge" className="icon-dual-primary" />
+                                    </span>
+                                </div>
+                                <div className="fw-medium fs-16 align-self-center flex-grow-1">
+                                    Increase conversion rates
+                                </div>
+                            </div>
+
+                            <div className="d-flex mb-3">
+                                <div className="list-inline-item me-3 flex-shrink-0">
+                                    <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                                        <FeatherIcon icon="users" className="icon-dual-primary" />
+                                    </span>
+                                </div>
+                                <div className="fw-medium fs-16 align-self-center flex-grow-1">
+                                Reduce customer journey
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={{ span: 6, offset: 1 }}>
+                        <img
+                            src={desktop1}
+                            alt="desktop1"
+                            className="img-fluid"
+                            data-aos="fade-left"
+                            data-aos-duration="700"
+                        />
+                    </Col>
+                </Row>
+
+                <Row className="align-items-center pt-9">
+                    <Col lg={6}>
+                        <div
+                            className="bg-white p-2 rounded border shadow"
+                            data-aos="fade-right"
+                            data-aos-duration="600"
+                        >
+                            <img src={desktop} alt="desktop" className="img-fluid" />
+                        </div>
+                    </Col>
+                    <Col lg={{ span: 5, offset: 1 }}>
+                        <div className="mt-4 mt-lg-0" data-aos="fade-left" data-aos-duration="700">
+                            <Badge pill bg="" className="badge-soft-danger px-2 py-1">
+                                Step 4 
+                            </Badge>
+                            <h1 className="display-5 fw-medium mb-2">Import Complete</h1>
+                            <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
+                            The data arrives in your system, ready to use
+                            </h5>
+
+                            <div className="d-flex mb-3">
+                                <div className="list-inline-item me-3 flex-shrink-0">
+                                    <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                                        <FeatherIcon icon="settings" className="icon-dual-primary" />
+                                    </span>
+                                </div>
+                                <div className="fw-medium fs-16 align-self-center flex-grow-1">
+                                    Infinitely scalable
+                                </div>
+                            </div>
+
+                            <div className="d-flex mb-3">
+                                <div className="list-inline-item me-3 flex-shrink-0">
+                                    <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                                        <FeatherIcon icon="git-branch" className="icon-dual-primary" />
+                                    </span>
+                                </div>
+                                <div className="fw-medium fs-16 align-self-center flex-grow-1">
+                                    Customer has instant access to value
+                                </div>
+                            </div>
+
+                            <div className="d-flex mb-3">
+                                <div className="list-inline-item me-3 flex-shrink-0">
+                                    <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
+                                        <FeatherIcon icon="command" className="icon-dual-primary" />
+                                    </span>
+                                </div>
+                                <div className="fw-medium fs-16 align-self-center flex-grow-1">
+                                    Complete data control possible
                                 </div>
                             </div>
                         </div>

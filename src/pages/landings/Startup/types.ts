@@ -7,6 +7,7 @@ export type Integration = {
 type Availability = {
     available: boolean;
     addon?: boolean;
+    price?: string;
 }
 
 export type PlanFeature = {

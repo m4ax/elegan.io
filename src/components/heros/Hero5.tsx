@@ -28,7 +28,7 @@ const Hero5 = () => {
                         </div>
 
                         <h1 className="hero-title fw-medium">
-                           You can make your onboarding process{' '}
+                           You can make data onboarding{' '}
                             <span className="highlight highlight-under d-inline-block"> painless.</span>
                         </h1>
 
@@ -38,7 +38,7 @@ const Hero5 = () => {
 
                         <Link to="#" className="btn btn-secondary">
                             <FeatherIcon icon="arrow-down" className="icon-xxs me-2" />
-                            View Our Work
+                            Try Yourself
                         </Link>
 
                         <Link to="#" className="btn btn-outline-secondary ms-2">

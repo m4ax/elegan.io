@@ -85,7 +85,7 @@ const Navbar3 = ({ isSticky, navClass, buttonClass, fixedWidth }: Navbar3Props) 
                                     to="#"
                                     className={classNames('btn', buttonClass ? buttonClass : 'btn-soft-primary')}
                                 >
-                                    Download
+                                    Try Free
                                 </Link>
                             </Nav.Item>
                         </Nav>

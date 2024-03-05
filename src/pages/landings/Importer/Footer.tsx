@@ -16,7 +16,7 @@ const Footer = () => {
                     <Col lg={6}>
                         <div className="text-lg-end">
                             <Link to="#" className="btn btn-primary rounded-pill">
-                                Try it free for 14 days
+                               Try for yourself
                             </Link>
                             <Link to="#" className="btn btn-link rounded-pill">
                                 Chat with us
@@ -144,8 +144,7 @@ const Footer = () => {
                 <Row className="text-center">
                     <Col md={12}>
                         <p className="pb-0 mb-0 text-muted">
-                            {new Date().getFullYear()} © Prompt. All rights reserved. Crafted by{' '}
-                            <a href="https://coderthemes.com/">Coderthemes</a>
+                            {new Date().getFullYear()} © Elegan Limited. All rights reserved.
                         </p>
                     </Col>
                 </Row>

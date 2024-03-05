@@ -69,8 +69,7 @@ const Footer = () => {
                 <div className="row text-md-start text-center">
                     <div className="col-md-6">
                         <p className="pb-0 mb-0 text-muted">
-                            {new Date().getFullYear()} © Prompt. All rights reserved. Crafted by{' '}
-                            <a href="https://coderthemes.com/">Coderthemes</a>
+                            {new Date().getFullYear()} © Elegan Limited. All rights reserved.
                         </p>
                     </div>
                     <div className="col-md-6 text-md-end">

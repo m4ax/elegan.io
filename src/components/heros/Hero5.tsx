@@ -28,12 +28,12 @@ const Hero5 = () => {
                         </div>
 
                         <h1 className="hero-title fw-medium">
-                           You can make data onboarding{' '}
+                           You can make data importing{' '}
                             <span className="highlight highlight-under d-inline-block"> painless.</span>
                         </h1>
 
                         <p className="mt-4 fs-18 mb-3 mb-sm-6 w-75">
-                            Your customers should not have to work to use your product. Make it easy for them to get started. Your competitors are making it easier to use their products. You should too.
+                            Your customers should not have to work to use your product. Make it easy for them. Your competitors are making it easier to use their products. You should too.
                         </p>
 
                         <Link to="#" className="btn btn-secondary">

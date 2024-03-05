@@ -13,12 +13,12 @@ const Hero12 = () => {
                     <Col lg={6}>
                         <div className="mb-lg-0 mb-5">
                             <h1 className="hero-title">
-                                 Data onboarding{' '}
+                                 Data importing{' '}
                                 <span className="highlight highlight-under d-inline-block">automation</span> for your saas
                             </h1>
                             <p className="fs-17 text-muted pt-3">
               
-                            Your new customer's data is in a different format. We automatically convert it. Don't make them wait.
+                            Your customer's data is in a different format. We automatically convert it. Don't make them do it.
                             </p>
 
                             <div className="pt-5">

@@ -19,7 +19,7 @@ const Pricing = ({ planFeatures }: PricingProps) => {
                         </Badge>
                         <h1 className="display-5 fw-medium">Access Agreements</h1>
                         <p className="text-muted mx-auto">
-                            Pricing that <span className="text-primary fw-bold">works</span> for everyone.
+                            Simple pricing that <span className="text-primary fw-bold">works</span> for everyone.
                         </p>
                     </Col>
                 </Row>

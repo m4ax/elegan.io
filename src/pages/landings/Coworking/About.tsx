@@ -13,7 +13,7 @@ const About = () => {
                             </Badge>
                             <h1 className="display-5 fw-medium">You can get customer data 10x faster</h1>
                             <p className="text-muted mx-auto w-75 mt-1">
-                                From an established enterprise or a startup, we offer space that fits all.
+                                Statistics from Flatfile Report.
                             </p>
 
                             <Row className="mt-5 text-center" data-aos="fade-up">
@@ -43,9 +43,9 @@ const About = () => {
 
                                 <Col xs={6} md={3} className="mb-5 mb-sm-0">
                                     <div className="display-3 fw-bold">
-                                        <CountUp duration={2} start={100} end={49} suffix="%" />
+                                        <CountUp duration={2} start={100} end={76} suffix="%" />
                                     </div>
-                                    <p className="mt-1 mb-0">say uploading data takes more than a day</p>
+                                    <p className="mt-1 mb-0">of problems related to data formatting</p>
                                 </Col>
                             </Row>
                         </div>

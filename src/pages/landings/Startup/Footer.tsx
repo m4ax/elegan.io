@@ -17,7 +17,7 @@ const Footer = () => {
                     <Col lg={6}>
                         <div className="text-lg-end">
                             <Link to="#" className="btn btn-primary rounded-pill">
-                                Try it free for 14 days
+                            Try for yourself
                             </Link>
                             <Link to="#" className="btn btn-link rounded-pill">
                                 Chat with us
@@ -34,7 +34,7 @@ const Footer = () => {
                             <img src={logo} height="30" alt="" />
                         </Link>
                         <p className="text-muted w-50">
-                            Make your saas application stand out with high-quality landing page
+                           Data migration automation built for saas companies. 
                         </p>
                     </Col>
                     <Col xl="auto" sm={4} xs={6}>
@@ -118,8 +118,7 @@ const Footer = () => {
                 <Row className="text-md-start text-center">
                     <Col md={8}>
                         <p className="pb-0 mb-0 text-muted">
-                            {new Date().getFullYear()} © Prompt. All rights reserved. Crafted by{' '}
-                            <a href="https://coderthemes.com/">Coderthemes</a>
+                            {new Date().getFullYear()} © Elegan Limited. All rights reserved.
                         </p>
                     </Col>
                     <Col md={4} className="text-md-end">

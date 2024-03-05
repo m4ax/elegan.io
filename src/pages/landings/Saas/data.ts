@@ -84,7 +84,7 @@ const features3: Feature3[] = [
         variant: 'orange',
         icon: 'clock',
         title: 'Time to value',
-        description: 'How long to get a new customer up and running?',
+        description: 'How long for a customer to get value?',
     },
     {
         variant: 'primary',
@@ -96,7 +96,7 @@ const features3: Feature3[] = [
         variant: 'info',
         icon: 'percent',
         title: 'Conversion rate',
-        description: 'How many of your lost customers did not upload data? Or did,  but did not convert?',
+        description: 'How many of your lost customers did not upload data? Or did, but failed?',
     },
     {
         variant: 'danger',

@@ -80,7 +80,7 @@ const VideoFeature = () => {
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
                                 Step 2
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">Elegan AI formats data to your schema</h1>
+                            <h1 className="display-5 fw-medium mb-2">Elegan AI makes the data your format</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
                                 Your clients data is transformed to your structure by us.
                             </h5>
@@ -129,7 +129,7 @@ const VideoFeature = () => {
                             </Badge>
                             <h1 className="display-5 fw-medium mb-2">We'll help fix any errors</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
-                                Your customer does not have to leave the platform
+                            Reduce customer journey
                             </h5>
 
                             <div className="d-flex mb-3">
@@ -139,7 +139,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Improve customer experience
+                                    Customer never leaves platform 
                                 </div>
                             </div>
 
@@ -150,7 +150,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Increase conversion rates
+                                Improve customer experience 
                                 </div>
                             </div>
 
@@ -161,7 +161,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                Reduce customer journey
+                                Increase conversion rates
                                 </div>
                             </div>
                         </div>
@@ -192,9 +192,9 @@ const VideoFeature = () => {
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
                                 Step 4 
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">Import Complete</h1>
+                            <h1 className="display-5 fw-medium mb-2">Customer moves forward</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
-                            The data arrives in your system, ready to use
+                            The data arrives in your system, ready for them to use
                             </h5>
 
                             <div className="d-flex mb-3">
@@ -215,7 +215,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Customer has instant access to value
+                                    Customer gains faster access to value
                                 </div>
                             </div>
 
@@ -226,7 +226,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Complete data control possible
+                                    Private hosting possible
                                 </div>
                             </div>
                         </div>

@@ -4,10 +4,10 @@ import { Integration, PlanFeature } from './types';
 // images
 import slack from 'assets/images/brands/slack.png';
 import fb from 'assets/images/brands/fb.png';
-import salesforce from 'assets/images/brands/salesforce.jpg';
+import salesforce from 'assets/images/brands/salesforce.png';
 import at from 'assets/images/brands/at.png';
 import gsheet from 'assets/images/brands/gsheet.png';
-import ac from 'assets/images/brands/ac.jpeg';
+import ac from 'assets/images/brands/ac.png';
 
 const integrations: Integration[] = [
     {

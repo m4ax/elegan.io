@@ -1,5 +1,5 @@
 // components
-import { Navbar1 } from '../../../components/navbars';
+import { Navbar3 } from '../../../components/navbars';
 import { Hero7 } from '../../../components/heros';
 import BackToTop from '../../../components/BackToTop';
 import { Footer1 } from '../../../components/footer';
@@ -17,11 +17,8 @@ const Crypto = () => {
     return (
         <>
             <div className="header-1">
-                <Navbar1
-                    navClass="navbar-light zindex-10"
-                    buttonClass="btn-outline-primary btn-sm"
-                    hideSearch
-                    fixedWidth
+                <Navbar3
+               navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm"
                 />
                 <Hero7 />
             </div>

@@ -15,7 +15,7 @@ const FAQs = () => {
                         </Badge>
                         <h1 className="display-5 fw-medium">Frequently Asked Questions</h1>
                         <p className="text-muted mx-auto">
-                            Here are some of the basic types of questions for our customers
+                            Here are some of the common types of questions from our customers
                         </p>
                     </Col>
                 </Row>

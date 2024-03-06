@@ -12,7 +12,7 @@ const Footer = () => {
                 <Row className="align-items-center mt-3 mb-4 pb-1">
                     <Col lg={6}>
                         <h2 className="text-dark fw-medium mt-0 mb-1">Ready to get started?</h2>
-                        <p className="text-muted pb-0 mb-0">Create your free 14-day account now</p>
+                        <p className="text-muted pb-0 mb-0">Create a free account now</p>
                     </Col>
                     <Col lg={6}>
                         <div className="text-lg-end">

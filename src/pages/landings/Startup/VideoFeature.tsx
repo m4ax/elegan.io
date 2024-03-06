@@ -80,7 +80,7 @@ const VideoFeature = () => {
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
                                 Step 2
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">Elegan AI makes the data your format</h1>
+                            <h1 className="display-5 fw-medium mb-2">Elegan AI turns their data into your format</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
                                 Your clients data is transformed to your structure by us.
                             </h5>
@@ -97,7 +97,7 @@ const VideoFeature = () => {
                             </div>
 
                             <div className="d-flex mb-3">
-                                <div className="list-inline-item me-3 flex-shrink-0">
+                                <div className="list-inliœne-item me-3 flex-shrink-0">
                                     <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary">
                                         <FeatherIcon icon="git-branch" className="icon-dual-primary" />
                                     </span>

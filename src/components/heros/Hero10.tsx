@@ -16,8 +16,7 @@ const Hero10 = () => {
                     </Col>
                     <Col lg={{ span: 5, offset: 1 }} sm={{ order: 2 }}>
                         <h1 className="mt-0 mb-4 pb-2 hero-title">
-                            Boost your <span className="highlight highlight-success d-inline-block">sales</span> with
-                            ease
+                            Understand where we will help <span className="highlight highlight-success d-inline-block">you</span> 
                         </h1>
 
                         <p className="fs-17 text-muted">

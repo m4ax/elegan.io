@@ -15,7 +15,7 @@ const Footer1 = () => {
                             <img src={logo} height="30" alt="" />
                         </Link>
                         <p className="text-muted w-75">
-                            Make your web application stand out with high-quality landing page
+                        Data migration automation built for saas companies.
                         </p>
                     </Col>
                     <Col xl="auto" lg={3} xs={6}>
@@ -61,11 +61,6 @@ const Footer1 = () => {
                                 </li>
                                 <li className="my-3">
                                     <Link to="#" className="text-muted">
-                                        Sales Tools catalog
-                                    </Link>
-                                </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
                                         API
                                     </Link>
                                 </li>
@@ -76,16 +71,6 @@ const Footer1 = () => {
                         <div className="ps-xl-5">
                             <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase">Company</h6>
                             <ul className="list-unstyled">
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        About Us
-                                    </Link>
-                                </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Career
-                                    </Link>
-                                </li>
                                 <li className="my-3">
                                     <Link to="#" className="text-muted">
                                         Contact Us

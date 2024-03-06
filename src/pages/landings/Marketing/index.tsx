@@ -1,5 +1,5 @@
 // components
-import { Navbar1 } from '../../../components/navbars';
+import { Navbar3 } from '../../../components/navbars';
 import { Hero10 } from '../../../components/heros';
 import BackToTop from '../../../components/BackToTop';
 
@@ -18,7 +18,7 @@ const Marketing = () => {
         <>
             {/* header and hero */}
             <div className="header-3">
-                <Navbar1 navClass="navbar-light" fixedWidth hideSearch buttonClass="btn-outline-primary btn-sm" />
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-outline-primary btn-sm" />
                 <Hero10 />
             </div>
 

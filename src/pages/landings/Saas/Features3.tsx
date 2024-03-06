@@ -66,7 +66,7 @@ const Features3 = () => {
                 <Row className="mt-5 justify-content-center">
                     <Col xs="auto">
                         <Link to="#" className="btn btn-primary mb-2">
-                            Sign Up Now <FeatherIcon className="icon-xs ms-2" icon="arrow-right" />
+                            Try Now <FeatherIcon className="icon-xs ms-2" icon="arrow-right" />
                         </Link>
                     </Col>
                 </Row>

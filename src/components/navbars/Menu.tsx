@@ -17,17 +17,22 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
         if (location.pathname) {
             return location.pathname.includes(path);
         }
-        return false;
+        return false
     };
 
     return (
         <Nav as="ul" className={classNames('align-items-lg-center', navClass)}>
             <Nav.Item as="li">
-                <NavLink to="/home" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
-                    Home
+                <NavLink to="/landing/startup" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                    Data importer
                 </NavLink>
             </Nav.Item>
-            <Dropdown as={'li'} className="nav-item">
+            {/* <Nav.Item as="li">
+                <NavLink to="/landing/marketing" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                    Use cases
+                </NavLink>
+            </Nav.Item> */}
+            {/* <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}
                     id="navbarLandings"
@@ -383,7 +388,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                         </Nav.Item>
                     </Nav>
                 </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
             <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}

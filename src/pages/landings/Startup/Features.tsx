@@ -9,6 +9,7 @@ import desktop from 'assets/images/hero/desktop.jpg';
 const Features = () => {
     return (
         <section className="pt-lg-6 pt-4 pb-lg-6 pb-5 position-relative overflow-hidden">
+            
             <Container>
                 <Row className="align-items-center mb-6 pb-lg-5">
                     <Col lg={5}>

@@ -9,7 +9,9 @@ const VideoFeature = () => {
     return (
         <section className="position-relative overflow-hidden py-6 features-3">
             <Container>
+
                 <Row className="align-items-center">
+                    
                     <Col lg={5}>
                         <div className="mb-lg-0 mb-4" data-aos="fade-right" data-aos-duration="600">
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
@@ -38,7 +40,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Customer never leaves platform
+                                    Easy drag and drop
                                 </div>
                             </div>
 
@@ -82,7 +84,7 @@ const VideoFeature = () => {
                             </Badge>
                             <h1 className="display-5 fw-medium mb-2">Elegan AI turns their data into your format</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
-                                Your clients data is transformed to your structure by us.
+                                Client data is automatically transformed. Customer never leaves platform.
                             </h5>
 
                             <div className="d-flex mb-3">
@@ -204,7 +206,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Infinitely scalable
+                                Your customer gains faster access to value
                                 </div>
                             </div>
 
@@ -215,7 +217,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Customer gains faster access to value
+                                You don't get help requests for data issues
                                 </div>
                             </div>
 
@@ -226,7 +228,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    Private hosting possible
+                                Stay competitive with automation
                                 </div>
                             </div>
                         </div>

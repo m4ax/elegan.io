@@ -10,6 +10,7 @@ import Pricing from './Pricing';
 import Footer from './Footer';
 import VideoFeature from './VideoFeature'
 import Feature4 from './Feature4'
+import Title from './title';
 
 
 
@@ -58,6 +59,10 @@ const Startup = () => {
             <ClientsReview />
 
             {/* <Features /> */}
+
+            <Title />
+
+            {/* video feature */}
 
             <VideoFeature />
 

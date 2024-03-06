@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { Badge, Col, Container, Row } from 'react-bootstrap';
 import FeatherIcon from 'feather-icons-react';
+import React, { useEffect, useState } from 'react';
 
 const Hero5 = () => {
-    return (
+
+   return (
         <section className="position-relative hero-5 pb-4 pt-7 pb-sm-0 hero-with-shapes">
             <div className="shape1"></div>
             <div className="shape2"></div>

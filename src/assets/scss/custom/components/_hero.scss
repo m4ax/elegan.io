@@ -211,74 +211,107 @@
 // moving objects
 .hero-with-shapes {
     @keyframes rotating {
-        0%{
-            transform: rotate(0deg);
-            top: 10%;
-            left: 5%;
-        }
-        100%{
-            transform: rotate(360deg);
-            top: 60%;
-            left: 15%;
-        }
-    }
-
-    @keyframes rotating2 {
-        0%{
-            transform: rotate(0deg);
-            bottom: 10%;
-            right: 10%;
-        }
-        100%{
-            transform: rotate(360deg);
-            bottom: 80%;
-            right: 30%;
-        }
-    }
-
-    @keyframes rotating3 {
-        0%{
-            transform: rotate(0deg);
-            bottom: 0%;
-            right: 65%;
-        }
-        100%{
-            transform: rotate(360deg);
-            bottom: 50%;
-            right: 35%;
-        }
-    }
-
-    .shape1 {
-        position: absolute;
-        top: 5%;
+      0%, 24% {
+        transform: rotate(0deg);
+        top: 10%;
         left: 5%;
-        width: 7rem;
-        height: 7rem;
-        background: url('/assets/images/shapes/rounded-square2.svg');
-        animation: rotating alternate ease-in-out infinite 6s;
+        filter: hue-rotate(0deg) brightness(100%);
+      }
+      25%, 49% {
+        filter: hue-rotate(120deg) brightness(100%);
+      }
+      50%, 74% {
+        filter: hue-rotate(240deg) brightness(100%);
+      }
+      75%, 99% {
+        filter: hue-rotate(360deg) brightness(100%);
+      }
+      100% {
+        transform: rotate(360deg);
+        top: 60%;
+        left: 15%;
+        filter: hue-rotate(0deg) brightness(100%);
+      }
     }
-
-    .shape2 {
-        position: absolute;
-        bottom: 20%;
+  
+    @keyframes rotating2 {
+      0%, 24% {
+        transform: rotate(0deg);
+        bottom: 10%;
         right: 10%;
-        width: 7rem;
-        height: 7rem;
-        background: url('/assets/images/shapes/rounded-square2.svg');
-        animation: rotating2 alternate ease-in-out infinite 6s;
+        filter: hue-rotate(0deg) brightness(100%);
+      }
+      25%, 49% {
+        filter: hue-rotate(120deg) brightness(100%);
+      }
+      50%, 74% {
+        filter: hue-rotate(240deg) brightness(100%);
+      }
+      75%, 99% {
+        filter: hue-rotate(360deg) brightness(100%);
+      }
+      100% {
+        transform: rotate(360deg);
+        bottom: 80%;
+        right: 30%;
+        filter: hue-rotate(0deg) brightness(100%);
+      }
     }
-
-    .shape3 {
-        position: absolute;
+  
+    @keyframes rotating3 {
+      0%, 24% {
+        transform: rotate(0deg);
         bottom: 0%;
         right: 65%;
-        width: 7rem;
-        height: 7rem;
-        background: url('/assets/images/shapes/rounded-square2.svg');
-        animation: rotating3 alternate ease-in-out infinite 6s;
+        filter: hue-rotate(0deg) brightness(100%);
+      }
+      25%, 49% {
+        filter: hue-rotate(120deg) brightness(100%);
+      }
+      50%, 74% {
+        filter: hue-rotate(240deg) brightness(100%);
+      }
+      75%, 99% {
+        filter: hue-rotate(360deg) brightness(100%);
+      }
+      100% {
+        transform: rotate(360deg);
+        bottom: 50%;
+        right: 35%;
+        filter: hue-rotate(0deg) brightness(100%);
+      }
     }
-}
+  
+    .shape1 {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 7rem;
+      height: 7rem;
+      background: url('/assets/images/shapes/rounded-square2.svg');
+      animation: rotating alternate ease-in-out infinite 12s;
+    }
+  
+    .shape2 {
+      position: absolute;
+      bottom: 20%;
+      right: 10%;
+      width: 7rem;
+      height: 7rem;
+      background: url('/assets/images/shapes/rounded-square2.svg');
+      animation: rotating2 alternate ease-in-out infinite 12s;
+    }
+  
+    .shape3 {
+      position: absolute;
+      bottom: 0%;
+      right: 65%;
+      width: 7rem;
+      height: 7rem;
+      background: url('/assets/images/shapes/rounded-square2.svg');
+      animation: rotating3 alternate ease-in-out infinite 12s;
+    }
+  }
 
 // hero-3
 .hero-3 {
@@ -333,6 +366,8 @@
         }
     }
 }
+
+
 
 
 

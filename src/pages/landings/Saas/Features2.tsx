@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FeatherIcon from 'feather-icons-react';
 
 // images
-import saas2 from 'assets/images/hero/saas2.jpg';
+import saas2 from 'assets/images/hero/datamap.gif';
 
 const Features2 = () => {
     return (

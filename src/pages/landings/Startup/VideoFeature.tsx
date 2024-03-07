@@ -2,7 +2,7 @@ import { Badge, Col, Container, Row } from 'react-bootstrap';
 import FeatherIcon from 'feather-icons-react';
 
 // images
-import desktop1 from 'assets/images/features/desktop1.gif';
+import desktop1 from 'assets/images/features/upload.gif';
 import desktop from 'assets/images/hero/desktop.jpg';
 
 const VideoFeature = () => {

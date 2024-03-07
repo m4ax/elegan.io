@@ -8,7 +8,7 @@ const Title = () => {
                 <Row className="align-items-center">
                     <Col>
                         <div className="text-center">
-                            <h1 className="display-5 fw-medium">Your new customer journey</h1>
+                            <h1 className="display-5 fw-medium">Seamless data importing</h1>
                             <p className="text-muted mx-auto w-75 mt-1">
                                Simplified with Elegan.
                             </p>

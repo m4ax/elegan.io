@@ -5,7 +5,7 @@ import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // images
-import saas1 from 'assets/images/hero/datamap.gif';
+import saas1 from 'assets/images/hero/dashboard.png';
 import saas2 from 'assets/images/hero/saas2.jpg';
 import saas3 from 'assets/images/hero/saas3.jpg';
 

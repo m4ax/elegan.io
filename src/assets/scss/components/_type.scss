@@ -126,7 +126,7 @@ p {
     $value in $theme-colors {
         &.highlight-#{$color} {
             &::before {
-                background: lighten($value, 25%) !important
+                background: lighten($value, 32%) !important
             }
         }
     }

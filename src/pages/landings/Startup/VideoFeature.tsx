@@ -3,7 +3,10 @@ import FeatherIcon from 'feather-icons-react';
 
 // images
 import desktop1 from 'assets/images/features/upload.gif';
-import desktop from 'assets/images/hero/desktop.jpg';
+import desktop from 'assets/images/hero/autoformat.gif';
+import download from 'assets/images/hero/downloadbox.gif'
+import error from 'assets/images/hero/errorfix.gif'
+import saas from 'assets/images/hero/saas1.png'
 
 const VideoFeature = () => {
     return (
@@ -17,7 +20,7 @@ const VideoFeature = () => {
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
                                 Step 1
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">Your customer uploads data</h1>
+                            <h1 className="display-5 fw-medium mb-2">Your customer uploads their current data format</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
                                 Any data format accepted!
                             </h5>
@@ -57,13 +60,19 @@ const VideoFeature = () => {
                         </div>
                     </Col>
                     <Col lg={{ span: 6, offset: 1 }}>
+                    <div
+                            className="bg-white p-2 rounded border shadow"
+                            data-aos="fade-right"
+                            data-aos-duration="600"
+                        >
                         <img
-                            src={desktop1}
+                            src={download}
                             alt="desktop1"
                             className="img-fluid"
                             data-aos="fade-left"
                             data-aos-duration="700"
                         />
+                        </div>
                     </Col>
                 </Row>
 
@@ -169,13 +178,13 @@ const VideoFeature = () => {
                         </div>
                     </Col>
                     <Col lg={{ span: 6, offset: 1 }}>
-                        <img
-                            src={desktop1}
-                            alt="desktop1"
-                            className="img-fluid"
-                            data-aos="fade-left"
-                            data-aos-duration="700"
-                        />
+                    <div
+                            className="bg-white p-2 rounded border shadow"
+                            data-aos="fade-right"
+                            data-aos-duration="600"
+                        >
+                            <img src={error} alt="desktop" className="img-fluid" />
+                        </div>
                     </Col>
                 </Row>
 
@@ -186,7 +195,7 @@ const VideoFeature = () => {
                             data-aos="fade-right"
                             data-aos-duration="600"
                         >
-                            <img src={desktop} alt="desktop" className="img-fluid" />
+                            <img src={saas} alt="desktop" className="img-fluid" />
                         </div>
                     </Col>
                     <Col lg={{ span: 5, offset: 1 }}>
@@ -194,7 +203,7 @@ const VideoFeature = () => {
                             <Badge pill bg="" className="badge-soft-danger px-2 py-1">
                                 Step 4 
                             </Badge>
-                            <h1 className="display-5 fw-medium mb-2">Customer moves forward</h1>
+                            <h1 className="display-5 fw-medium mb-2">Customer data on your platform</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
                             The data arrives in your system, ready for them to use
                             </h5>

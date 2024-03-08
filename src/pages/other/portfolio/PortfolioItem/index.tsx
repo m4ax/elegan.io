@@ -1,5 +1,5 @@
 // component
-import { Navbar1 } from 'components/navbars';
+import { Navbar3 } from 'components/navbars';
 import { Footer1 } from 'components/footer';
 
 import Hero from './Hero';
@@ -15,7 +15,7 @@ const PortfolioItem = () => {
         <>
             {/* header */}
             <div>
-                <Navbar1 navClass="navbar-light" fixedWidth hideSearch buttonClass="btn-outline-secondary btn-sm" />
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-outline-secondary btn-sm" />
                 <Hero />
             </div>
 

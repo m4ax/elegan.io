@@ -27,12 +27,12 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                     Data importer
                 </NavLink>
             </Nav.Item>
-            {/* <Nav.Item as="li">
+            <Nav.Item as="li">
                 <NavLink to="/landing/marketing" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Use cases
                 </NavLink>
-            </Nav.Item> */}
-            {/* <Dropdown as={'li'} className="nav-item">
+            </Nav.Item>
+            <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}
                     id="navbarLandings"
@@ -388,7 +388,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                         </Nav.Item>
                     </Nav>
                 </Dropdown.Menu>
-            </Dropdown> */}
+            </Dropdown>
             <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}

@@ -3,6 +3,7 @@ import FeatherIcon from 'feather-icons-react';
 
 // component
 import Gallery from './Gallery';
+import asset from '../../../../assets/images/compare/assetcompare.jpeg';
 
 // types
 import { WorkImages } from '../types';
@@ -19,7 +20,7 @@ const Content = ({ workImages }: ContentProps) => {
                     <Col lg={12}>
                         <figure className="figure">
                             <img
-                                src="https://source.unsplash.com/GXNo-OJynTQ/1920x720"
+                                src={asset}
                                 alt="contentImage"
                                 className="figure-img img-fluid rounded"
                             />

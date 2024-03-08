@@ -8,7 +8,7 @@ const Hero = () => {
             <Container>
                 <Row className="justify-content-center">
                     <Col lg={7} className="text-center">
-                        <h1 className="hero-title">Awesome Mobile App</h1>
+                        <h1 className="hero-title">Asset Mangement System</h1>
                     </Col>
                 </Row>
 

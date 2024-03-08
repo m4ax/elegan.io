@@ -87,7 +87,7 @@ const features3: Feature3[] = [
         description: 'How long for a customer to get value?',
     },
     {
-        variant: 'primary',
+        variant: 'info',
         icon: 'mail',
         title: 'Customer queries',
         description: 'How many come from data importing? What is the cost?',

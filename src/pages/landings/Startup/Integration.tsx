@@ -18,8 +18,8 @@ const Integrations = ({ integrations }: IntegrationsProps) => {
                         </Badge>
                         <h1 className="display-5 fw-medium">Sync your data anywhere</h1>
                         <p className="text-muted mx-auto">
-                            Sync your customer data to{' '}
-                            <span className="text-primary fw-bold">anywhere</span>.
+                           We are constantly adding new{' '}
+                            <span className="text-primary fw-bold">integrations</span>.
                         </p>
                     </Col>
                 </Row>

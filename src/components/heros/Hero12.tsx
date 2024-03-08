@@ -45,14 +45,14 @@ const Hero12 = () => {
                                         icon="check"
                                         className="icon icon-dual-success icon-xs me-1"
                                     ></FeatherIcon>
-                                    Free 14-day Demo
+                                    No setup cost
                                 </div>
                                 <div>
                                     <FeatherIcon
                                         icon="check"
                                         className="icon icon-dual-success icon-xs me-1"
                                     ></FeatherIcon>
-                                    No credit card needed
+                                    Embed anywhere
                                 </div>
                             </div>
                         </div>

@@ -41,11 +41,11 @@ const FAQContent = () => {
     const faqs = [
         {
             question: 'I want to see how it works.',
-            ans: "Book a call. We'll show you.",
+            ans: "You can play with a demo importer on this site. However, if you want to see it working specific to your use case, get in touch.",
         },
         {
             question: 'How long is set up?',
-            ans: "Typically a few days.",
+            ans: "Typically a few hours. Once you have defined your format, you just need to connect your data source and embed the importer on your website.",
         },
         {
             question: 'What if my data is confidential?',
@@ -53,7 +53,7 @@ const FAQContent = () => {
         },
         {
             question: "Why can't I build this internally?",
-            ans: "You can. But, if you want excellence and you wan't it now - you can't.",
+            ans: "You can build an okay manual importer. We help those who want excellent customer experience, and they want it now.",
         },
     ];
 

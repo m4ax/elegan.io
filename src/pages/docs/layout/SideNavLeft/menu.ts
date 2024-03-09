@@ -19,7 +19,7 @@ export const MENU_ITEMS: MenuItem[] = [
         children: [
             {
                 key: 'colors',
-                label: 'Colors',
+                label: 'Chicken nuggets',
                 url: '/docs/colors',
             }
         ],

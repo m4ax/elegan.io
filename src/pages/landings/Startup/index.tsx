@@ -11,6 +11,7 @@ import Footer from './Footer';
 import VideoFeature from './VideoFeature'
 import Feature4 from './Feature4'
 import Title from './title';
+import Features3 from '../Saas/Features3';
 
 
 
@@ -68,11 +69,15 @@ const Startup = () => {
 
             {/* features */}
 
-
+            <Features3 />
             <Feature4  features={features}  />
+
+
 
             {/* integration */}
             <Integrations integrations={integrations} />
+
+
 
             {/* pricing */}
             <Pricing planFeatures={planFeatures} />

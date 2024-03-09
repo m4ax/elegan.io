@@ -18,7 +18,7 @@ const Metrics = ({ features }: FeatureProps) => {
                         <Badge pill className="badge-soft-primary px-2 py-1" bg="">
                             Metrics
                         </Badge>
-                        <h1 className="display-5 fw-semibold">How do you compare?</h1>
+                        <h1 className="display-5 fw-semibold">Are you a good fit?</h1>
                         <p className="text-muted mx-auto">
                             Solid questions to understand  <span className="text-primary fw-bold"> potential</span>  problems.
                         </p>

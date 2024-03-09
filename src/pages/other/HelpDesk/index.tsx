@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 
 // components
-import { Navbar1 } from 'components/navbars';
+import { Navbar3 } from 'components/navbars';
 import BackToTop from 'components/BackToTop';
 
 import Hero from './Hero';
@@ -17,8 +17,7 @@ const HelpDesk = () => {
     return (
         <>
             <div>
-                <Navbar1
-                    hideSearch
+                <Navbar3
                     fixedWidth
                     navClass="navbar-light zindex-10"
                     buttonClass="btn-outline-secondary btn-sm"

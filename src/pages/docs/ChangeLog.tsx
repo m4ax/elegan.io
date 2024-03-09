@@ -13,14 +13,9 @@ const ChangeLog = () => {
                             <Card.Body>
                                 <h4 className="my-0">Change Log</h4>
 
-                                <h5 className="mt-4">v1.1.0 - 01 Apr 2022</h5>
+                     
 
-                                <ul className="mt-3">
-                                    <li>Improved: Refactored type definition</li>
-                                    <li>Updated: Plugins</li>
-                                </ul>
-
-                                <h5 className="mt-4">v1.0.0 - 11 Feb 2022</h5>
+                                <h5 className="mt-4">v1.0.0 - 9 Mar 2024</h5>
 
                                 <ul className="mt-3">
                                     <li>Initial Release</li>

@@ -1,18 +1,21 @@
 // type
 import { GalleryItem, WorkImages } from '../types';
 
+import auto from '../../../../assets/images/compare/auto-convert.jpeg'
+import logo from '../../../../assets/images/compare/logoelegan.png'
+
 const gallery: GalleryItem[] = [
     {
         id: 1,
         image: {
-            src: 'https://source.unsplash.com/sScmok4Iq1o/1920x1260',
+            src: auto,
             caption: 'Office Desks',
         },
     },
     {
         id: 2,
         image: {
-            src: 'https://source.unsplash.com/6ba_vdgx_go/1920x1260',
+            src: logo,
             caption: 'Office Desks',
         },
     },
@@ -20,16 +23,16 @@ const gallery: GalleryItem[] = [
 
 const workImages: WorkImages[] = [
     {
-        icon: 'figma',
-        title: 'UI/UX Design',
+        icon: 'clock',
+        title: 'Date & Time', 
     },
     {
         icon: 'hexagon',
-        title: 'Brand Identity',
+        title: 'Context awareness',
     },
     {
-        icon: 'image',
-        title: 'Web Devblopment',
+        icon: 'type',
+        title: 'String manipulation',
     },
 ];
 

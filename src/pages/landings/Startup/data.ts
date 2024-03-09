@@ -14,33 +14,33 @@ const integrations: Integration[] = [
         appLogo: slack,
         app: 'Snowflake',
         description:
-            'Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go',
+            'Snowflake delivers a data warehouse built entirely for the cloud, providing a high-performance, scalable solution for data storage and analysis.',
     },
     {
         appLogo: fb,
         app: 'Postgres',
         description:
-            'Facebook lead ads make signing up for business information easy for people and more valuable for businesses',
+            'Snowflake delivers a data warehouse built entirely for the cloud, providing a high-performance, scalable solution for data storage and analysis.',
     },
     {
         appLogo: salesforce,
         app: 'API Gateway',
-        description: 'Salesforce is a leading enterprise customer relationship manager (CRM) application',
+        description: 'API Gateway serves as a secure channel for businesses to send and receive data, facilitating seamless integration and communication with our services.',
     },
     {
         appLogo: at,
         app: 'Airtable',
-        description: 'Organize anything with Airtable, a modern database created for everyone',
+        description: 'Organise anything with Airtable, a modern database created for everyone',
     },
     {
         appLogo: gsheet,
         app: 'Google Sheets',
-        description: 'Create, edit, and share spreadsheets with Google Sheets, and get automated insights from data',
+        description: 'Google Sheets allows you to create, modify, and collaborate on spreadsheets online, offering real-time data analysis and insights.',
     },
     {
         appLogo: ac,
         app: 'SQL Server',
-        description: 'ActiveCampaign combines all aspects of email marketing into a single and easy- to - use platform',
+        description: 'SQL Server provides a robust database management system for storing and retrieving data as requested by other software applications.',
     },
 ];
 

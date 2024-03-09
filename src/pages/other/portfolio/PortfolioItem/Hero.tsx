@@ -14,16 +14,16 @@ const Hero = () => {
 
                 <Row className="border-top border-bottom py-4 align-items-center mt-5">
                     <Col>
-                        <span className="fs-14">Client</span>
-                        <h4 className="mt-1 fw-medium">Scarlet Johnson</h4>
+                        <span className="fs-14">Time Saved</span>
+                        <h4 className="mt-1 fw-medium">2-3 hours</h4>
                     </Col>
                     <Col>
                         <span className="fs-14">Category</span>
-                        <h4 className="mt-1 fw-medium">Mobile App</h4>
+                        <h4 className="mt-1 fw-medium">Asset Management</h4>
                     </Col>
                     <Col>
-                        <span className="fs-14">Crafted Date</span>
-                        <h4 className="mt-1 fw-medium">Oct 12, 2019</h4>
+                        <span className="fs-14">File Size</span>
+                        <h4 className="mt-1 fw-medium">75,000 rows</h4>
                     </Col>
                     <Col xs="auto">
                         <ul className="list-inline mb-0 me-3">
@@ -48,8 +48,8 @@ const Hero = () => {
                         </ul>
                     </Col>
                     <Col xs="auto">
-                        <Link to="#" className="btn btn-outline-primary">
-                            Project Link
+                        <Link to="" className="btn btn-outline-primary">
+                            Contact
                         </Link>
                     </Col>
                 </Row>

@@ -30,7 +30,7 @@ const Hero5 = () => {
                         </div>
 
                         <h1 className="hero-title fw-medium">
-                          Your customers shouldn't get data side quests{' '}
+                          Your customers shouldn't do data chores {' '}
                             {/* <span className="highlight highlight-under d-inline-block"> painless.</span> */}
                         </h1>
 

@@ -4,21 +4,22 @@ import { PlanItem } from 'components/pricing';
 import { Feature, Feature3 } from './types';
 
 const features: Feature[] = [
+        {
+        avatar: 'user-plus',
+        title: "You are making new customers work too hard.",
+        description: "Forcing new users to manually adjust their data to match your system's requirements is painful. Potential customers are made to jump through hoops just to use your product.",
+        variant: 'primary',
+        containerClass: 'd-flex border-bottom py-4',
+    },
     {
         avatar: 'users',
         title: 'Your competitors have 10x quicker time to value.',
         description:
             "Your competitors are leveraging automation to onboard new users. They are outpacing your customer acquisition and using software, not people to do it.",
-        variant: 'primary',
+        variant: 'success',
         containerClass: 'd-flex border-bottom pb-4',
     },
-    {
-        avatar: 'user-plus',
-        title: "You are making new customers work too hard.",
-        description: "Forcing new users to manually adjust their data to match your system's requirements is painful. Potential customers are made to jump through hoops just to use your product.",
-        variant: 'success',
-        containerClass: 'd-flex border-bottom py-4',
-    },
+
     {
         avatar: 'bar-chart',
         title: "You can't scale manual onboarding.",

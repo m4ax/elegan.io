@@ -27,12 +27,12 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                     Data importer
                 </NavLink>
             </Nav.Item>
-            <Nav.Item as="li">
+            {/* <Nav.Item as="li">
                 <NavLink to="/landing/marketing" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Use cases
                 </NavLink>
-            </Nav.Item>
-            <Dropdown as={'li'} className="nav-item">
+            </Nav.Item> */}
+            {/* <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}
                     id="navbarLandings"
@@ -198,167 +198,24 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                         </Col>
                     </Row>
                 </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
             <Dropdown as={'li'} className="nav-item">
                 <Dropdown.Toggle
                     as={Nav.Link}
                     id="navbarPages"
                     className={classNames(isActiveRoute('/pages') ? 'active' : '')}
                 >
-                    Pages <FeatherIcon icon="chevron-down" className="d-inline-block icon icon-xxs ms-1 mt-lg-0 mt-1" />
+                    Use cases <FeatherIcon icon="chevron-down" className="d-inline-block icon icon-xxs ms-1 mt-lg-0 mt-1" />
                 </Dropdown.Toggle>
+
+
 
                 <Dropdown.Menu renderOnMount>
                     <Nav as={'ul'} navbar={false}>
-                        <Dropdown as={'li'} className="nav-item" aria-labelledby="navbarPages">
-                            <Dropdown.Toggle
-                                as={Nav.Link}
-                                id="accountPages"
-                                className={classNames(isActiveRoute('/pages/account') ? 'active' : '')}
-                            >
-                                Account <div className="arrow"></div>
-                            </Dropdown.Toggle>
 
-                            <Dropdown.Menu renderOnMount>
-                                <Nav as="ul" navbar={false}>
-                                    <Nav.Item as="li">
-                                        <NavLink
-                                            to="/pages/account/dashboard"
-                                            end
-                                            className={classNames(
-                                                'nav-link',
-                                                ({ ...isActive }) => isActive && 'active'
-                                            )}
-                                        >
-                                            Dashboard
-                                        </NavLink>
-                                    </Nav.Item>
-                                    <Nav.Item as="li">
-                                        <NavLink
-                                            to="/pages/account/settings"
-                                            end
-                                            className={classNames(
-                                                'nav-link',
-                                                ({ ...isActive }) => isActive && 'active'
-                                            )}
-                                        >
-                                            Settings
-                                        </NavLink>
-                                    </Nav.Item>
-                                </Nav>
-                            </Dropdown.Menu>
-                        </Dropdown>
-
-                        <Dropdown as={'li'} className="nav-item" aria-labelledby="navbarPages">
-                            <Dropdown.Toggle
-                                as={Nav.Link}
-                                id="blogPages"
-                                className={classNames(isActiveRoute('/pages/blog') ? 'active' : '')}
-                            >
-                                Blog <div className="arrow"></div>
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu renderOnMount>
-                                <Nav as="ul" navbar={false}>
-                                    <NavLink
-                                        to="/pages/blog"
-                                        end
-                                        className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                                    >
-                                        Blog
-                                    </NavLink>
-                                    <NavLink
-                                        to="/pages/blog/post"
-                                        end
-                                        className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                                    >
-                                        Blog Post
-                                    </NavLink>
-                                </Nav>
-                            </Dropdown.Menu>
-                        </Dropdown>
 
                         <Nav.Item as="li">
-                            <hr className="my-2" />
-                        </Nav.Item>
-
-                        <Nav.Item as="li">
-                            <NavLink
-                                to="/pages/company"
-                                end
-                                className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                            >
-                                Company
-                            </NavLink>
-                        </Nav.Item>
-
-                        <Nav.Item as="li">
-                            <NavLink
-                                to="/pages/contact"
-                                end
-                                className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                            >
-                                Contact
-                            </NavLink>
-                        </Nav.Item>
-
-                        <Nav.Item as="li">
-                            <NavLink
-                                to="/pages/career"
-                                end
-                                className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                            >
-                                Career
-                            </NavLink>
-                        </Nav.Item>
-
-                        <Nav.Item as="li">
-                            <NavLink
-                                to="/pages/pricing"
-                                end
-                                className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                            >
-                                Pricing
-                            </NavLink>
-                        </Nav.Item>
-
-                        <Dropdown as={'li'} className="nav-item" aria-labelledby="navbarPages">
-                            <Dropdown.Toggle
-                                as={Nav.Link}
-                                id="portfolioPages"
-                                className={classNames(isActiveRoute('/pages/portfolio') ? 'active' : '')}
-                            >
-                                Portfolio <div className="arrow"></div>
-                            </Dropdown.Toggle>
-
-                            <Dropdown.Menu renderOnMount>
-                                <Nav as="ul" navbar={false}>
-                                    <Nav.Item as="li">
-                                        <NavLink
-                                            to="/pages/portfolio/grid"
-                                            end
-                                            className={classNames(
-                                                'nav-link',
-                                                ({ ...isActive }) => isActive && 'active'
-                                            )}
-                                        >
-                                            Portfolio Grid
-                                        </NavLink>
-                                    </Nav.Item>
-                                    <Nav.Item as="li">
-                                        <NavLink
-                                            to="/pages/portfolio/masonry"
-                                            end
-                                            className={classNames(
-                                                'nav-link',
-                                                ({ ...isActive }) => isActive && 'active'
-                                            )}
-                                        >
-                                            Portfolio Masonry
-                                        </NavLink>
-                                    </Nav.Item>
-                                    <Nav.Item as="li">
-                                        <NavLink
+                        <NavLink
                                             to="/pages/portfolio/item"
                                             end
                                             className={classNames(
@@ -366,14 +223,12 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                                 ({ ...isActive }) => isActive && 'active'
                                             )}
                                         >
-                                            Portfolio Item
+                                           Asset Management
                                         </NavLink>
-                                    </Nav.Item>
-                                </Nav>
-                            </Dropdown.Menu>
-                        </Dropdown>
+                        </Nav.Item>
 
-                        <Nav.Item as="li">
+
+                        {/* <Nav.Item as="li">
                             <hr className="my-2" />
                         </Nav.Item>
 
@@ -385,8 +240,9 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                             >
                                 Help
                             </NavLink>
-                        </Nav.Item>
+                        </Nav.Item> */}
                     </Nav>
+      
                 </Dropdown.Menu>
             </Dropdown>
             <Dropdown as={'li'} className="nav-item">
@@ -415,15 +271,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                 Getting Started
                             </NavLink>
                         </Nav.Item>
-                        <Nav.Item as="li">
-                            <NavLink
-                                to="/docs/bootstrap"
-                                end
-                                className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
-                            >
-                                Components
-                            </NavLink>
-                        </Nav.Item>
+                       
                         <Nav.Item as="li">
                             <hr className="my-2" />
                         </Nav.Item>

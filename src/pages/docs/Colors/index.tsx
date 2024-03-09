@@ -19,8 +19,7 @@ const ColorsExample = () => {
                 <Row>
                     <Col xs={12}>
                         <Colors variants={variants} />
-                        <Backgrounds variants={variants} />
-                        <TextColors variants={variants} />
+                       
                     </Col>
                 </Row>
             </Col>

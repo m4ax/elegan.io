@@ -8,9 +8,9 @@ const Title = () => {
                 <Row className="align-items-center">
                     <Col>
                         <div className="text-center">
-                            <h1 className="display-5 fw-medium">Seamless data importing</h1>
+                            <h1 className="display-5 fw-medium">Let customers import external data formats in minutes</h1>
                             <p className="text-muted mx-auto w-75 mt-1">
-                               Simplified with Elegan.
+                               Plus, give them the power to solve any data issues without leaving the upload page.
                             </p>
                         </div>
                     </Col>

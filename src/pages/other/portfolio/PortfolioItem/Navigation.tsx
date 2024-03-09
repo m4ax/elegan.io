@@ -36,7 +36,7 @@ const DesktopPopover = (
 
 const Navigation = () => {
     return (
-        <section className="position-relative pb-5">
+        <section className="position-relative pb-5 pt-5">
             <Container>
                 <Row className="border-top border-bottom py-4 align-items-center">
                     <Col md={4} sm={6} className="text-md-start text-center">

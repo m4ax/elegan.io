@@ -15,7 +15,7 @@ const PortfolioItem = () => {
         <>
             {/* header */}
             <div>
-                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-outline-secondary btn-sm" />
+                <Navbar3 navClass="navbar-light" fixedWidth buttonClass="btn-secondary btn-sm"  />
                 <Hero />
             </div>
 
@@ -23,7 +23,6 @@ const PortfolioItem = () => {
             <Content workImages={workImages} />
 
             {/* testimonial */}
-            <Testimonial />
 
             {/* navigation */}
             <Navigation />

@@ -26,7 +26,7 @@ const Content = ({ workImages }: ContentProps) => {
                             />
 
                             <figcaption className="figure-caption text-center">
-                                The image caption referencing the above image
+                                These two formats were migrated instantly with Elegan
                             </figcaption>
                         </figure>
                     </Col>
@@ -36,12 +36,9 @@ const Content = ({ workImages }: ContentProps) => {
                 <Row className="mt-5" data-aos="fade-up" data-aos-duration="300">
                     <Col lg={6}>
                         <div className="pe-4">
-                            <h3>About Client</h3>
+                            <h3>About Migration</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit officia neque beatae
-                                at inventore excepturi numquam sint commodi alias, quam consequuntur corporis ex,
-                                distinctio eaque sapiente pariatur iure ad necessitatibus in quod obcaecati natus
-                                consequatur. Sed dicta maiores, eos culpa.
+                               Our model impressed us with this one. Not only was it able to identify that "Annual Dep" was a depreciation metric, but it also undertood that the output file of current value, required the calculation wth depreciation rate, date, current price and purchase date.
                             </p>
                         </div>
                     </Col>
@@ -49,10 +46,7 @@ const Content = ({ workImages }: ContentProps) => {
                         <div className="ps-4">
                             <h3>Project Description</h3>
                             <p>
-                                Voluptatum animi, voluptate sint aperiam facere a nam, ex reiciendis eum nemo ipsum
-                                nobis, rem illum cupiditate at quaerat amet qui recusandae hic, atque laboriosam
-                                perspiciatis? Esse quidem minima, voluptas necessitatibus, officia culpa quo nulla,
-                                cupiditate iste vel unde magni.
+                                Elegan was useful in migrating the data from the old asset management system to the new one. It was able to identify the data and migrate it to the new system without any issues.
                             </p>
                         </div>
                     </Col>
@@ -68,12 +62,8 @@ const Content = ({ workImages }: ContentProps) => {
                 {/* work description */}
                 <Row className="mt-5" data-aos="fade-up" data-aos-duration="300">
                     <Col lg={12}>
-                        <h3>What We Did?</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit officia neque beatae at
-                            inventore excepturi numquam sint commodi alias, quam consequuntur corporis ex, distinctio
-                            eaque sapiente pariatur iure ad necessitatibus in quod obcaecati natus consequatur. Sed
-                            dicta maiores, eos culpa.
+                            This was an example migration that we used to test the capabilities of Elegan. It was able to identify the data and migrate it to the desired schema automatically. Although, it is important to note that this does not aways happen. If your customer does get a data error, they have the ability in the flow to fix it without ever leaving your platform. 
                         </p>
 
                         <Row className="mt-5">
@@ -94,13 +84,10 @@ const Content = ({ workImages }: ContentProps) => {
                         </Row>
 
                         <p className="mt-5">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit officia neque beatae at
-                            inventore excepturi numquam sint commodi alias, quam consequuntur corporis ex, distinctio
-                            eaque sapiente pariatur iure ad necessitatibus in quod obcaecati natus consequatur. Sed
-                            dicta maiores, eos culpa.
+                            Interested in how you can use Elegan to migrate your data? <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer" className="text-primary">Learn more</a>
                         </p>
-
-                        <h5 className="mt-5">Technologies Used</h5>
+{/* 
+                        <h5 className="mt-5 mb-20">Technologies Used</h5>
                         <p className="mb-2">
                             <FeatherIcon icon="minus" className="icon-xs icon me-2" />
                             Sketch & Illustrator
@@ -116,7 +103,7 @@ const Content = ({ workImages }: ContentProps) => {
                         <p className="mb-2">
                             <FeatherIcon icon="minus" className="icon-xs icon me-2" />
                             PostgreSQL - Relational Database System
-                        </p>
+                        </p> */}
                     </Col>
                 </Row>
             </Container>

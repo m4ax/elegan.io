@@ -32,20 +32,12 @@ const Saas = () => {
 
 
 
-            {/* clients */}
-            {/* <Clients /> */}
-
-            {/* testimonials */}
-            {/* <Testimonials /> */}
-
             <Metrics features={features3}  />
 
-            <Features3 />
 
-            {/* FAQs */}
             <FAQs />
 
-            {/* footer */}
+
             <Footer1 />
 
             <BackToTop />

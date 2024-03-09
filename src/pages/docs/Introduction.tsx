@@ -23,13 +23,7 @@ const Introduction = () => {
                                 <p className="mb-1">Additional features :</p>
                                 <ul>
                                     <li>
-                                        <code>Lazy Loading(React.lazy)</code>
-                                    </li>
-                                    <li>
-                                        <code>Localization(i18n)</code>
-                                    </li>
-                                    <li>
-                                        <code>Custom Hooks</code>
+                                        chicken nuggs
                                     </li>
                                 </ul>
 

@@ -14,7 +14,7 @@ const Hero12 = () => {
                         <div className="mb-lg-0 mb-5">
                             <h1 className="hero-title">
                                  Data importing{' '}
-                                <span className="highlight highlight-under d-inline-block">automation</span> for your saas
+                                <span className="highlight highlight-under d-inline-block">automation</span> for csv
                             </h1>
                             <p className="fs-17 text-muted pt-3">
               

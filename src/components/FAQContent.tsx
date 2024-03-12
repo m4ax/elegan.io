@@ -45,11 +45,11 @@ const FAQContent = () => {
         },
         {
             question: 'How long is set up?',
-            ans: "Typically a few hours. Once you have defined your format, you just need to connect your data source and embed the importer on your website.",
+            ans: "No more than a few hours. Once you have defined your format, you just need to connect your data source and embed the importer on your website.",
         },
         {
             question: 'What if my data is confidential?',
-            ans: "You can host our services yourself. We will never touch your data.",
+            ans: "Soon, you will be able to host our services privately. We will never touch your data. Get in touch.",
         },
         {
             question: "Why can't I build this internally?",

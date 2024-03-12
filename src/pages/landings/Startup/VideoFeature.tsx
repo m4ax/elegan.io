@@ -140,7 +140,7 @@ const VideoFeature = () => {
                             </Badge>
                             <h1 className="display-5 fw-medium mb-2">We'll help fix any errors</h1>
                             <h5 className="fw-normal text-muted mx-auto mt-0 mb-4 pb-3">
-                            Reduce customer journey
+                            Coming soon!
                             </h5>
 
                             <div className="d-flex mb-3">

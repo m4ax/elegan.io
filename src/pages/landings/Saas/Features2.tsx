@@ -15,7 +15,7 @@ const Features2 = () => {
                             <span className="bg-soft-primary avatar avatar-sm rounded-lg icon icon-with-bg icon-xs text-primary me-3 mb-4">
                                 <FeatherIcon icon="clock" className="icon-dual-primary" />
                             </span>
-                            <h1 className="text-dark">Data onboarding can take days, when it should take minutes.</h1>
+                            <h1 className="text-dark">Data importing can take days, when it should take minutes.</h1>
                             <p className="text-muted my-4">
                                 Use Elegan to accept data in any format. We'll handle all the boring stuff.
                                 What's important is your customers can use your product straight away.

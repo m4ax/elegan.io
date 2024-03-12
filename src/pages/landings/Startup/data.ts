@@ -25,12 +25,12 @@ const integrations: Integration[] = [
     {
         appLogo: salesforce,
         app: 'API Gateway',
-        description: 'API Gateway serves as a secure channel for businesses to send and receive data, facilitating seamless integration and communication with our services.',
+        description: 'API Gateway serves as a secure channel for businesses to send and receive data, facilitating seamless communication with our services.',
     },
     {
-        appLogo: at,
-        app: 'Airtable',
-        description: 'Organise anything with Airtable, a modern database created for everyone',
+        appLogo: ac,
+        app: 'SQL Server',
+        description: 'SQL Server provides a robust database management system for storing and retrieving data as requested by other software applications.',
     },
     {
         appLogo: gsheet,
@@ -38,9 +38,9 @@ const integrations: Integration[] = [
         description: 'Google Sheets allows you to create, modify, and collaborate on spreadsheets online, offering real-time data analysis and insights.',
     },
     {
-        appLogo: ac,
-        app: 'SQL Server',
-        description: 'SQL Server provides a robust database management system for storing and retrieving data as requested by other software applications.',
+        appLogo: at,
+        app: 'Airtable',
+        description: 'Organise anything with Airtable, a modern database created for everyone',
     },
 ];
 
@@ -112,17 +112,17 @@ const planFeatures: PlanFeature[] = [
         "starter": {
             "available": false,
             "addon": true,
-            "price": "£0.0010/row" // Example, adjust as needed
+            "price": "£0.0010" // Example, adjust as needed
         },
         "professional": {
             "available": false,
             "addon": true,
-            "price": "£0.0005/row" // Example, adjust as needed
+            "price": "£0.0005" // Example, adjust as needed
         },
         "enterprise": {
             "available": false,
             "addon": true,
-            "price": "£0.0001/row"
+            "price": "Contact us"
         }
     }
     

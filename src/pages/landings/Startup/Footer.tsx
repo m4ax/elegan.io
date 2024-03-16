@@ -48,38 +48,6 @@ const Footer = () => {
                                 </li>
                                 <li className="my-3">
                                     <Link to="#" className="text-muted">
-                                        Pricing
-                                    </Link>
-                                </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Integrations
-                                    </Link>
-                                </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Status
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </Col>
-                    <Col xl="auto" sm={4} xs={6}>
-                        <div className="ps-xl-5">
-                            <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase">Company</h6>
-                            <ul className="list-unstyled">
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        About Us
-                                    </Link>
-                                </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Career
-                                    </Link>
-                                </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
                                         Contact Us
                                     </Link>
                                 </li>

@@ -11,9 +11,9 @@ type PricingProps = {
 const Pricing = ({ planFeatures }: PricingProps) => {
     return (
         <section className="my-5 py-5 position-relative">
-            <Container data-aos="fade-up" data-aos-duration="1500">
+            <Container  data-aos="fade-up" data-aos-duration="1500">
                 <Row>
-                    <Col className="text-center">
+                    <Col className="text-center" >
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
                             Pricing
                         </Badge>
@@ -21,10 +21,10 @@ const Pricing = ({ planFeatures }: PricingProps) => {
                         <p className="text-muted mx-auto">
                             Simple pricing that <span className="text-primary fw-bold">works</span> for everyone.
                         </p>
-                    </Col>
+                    </Col >
                 </Row>
-                <Row className="mt-5 align-items-center justify-content-center">
-                    <Col lg={12}>
+                <Row   className="mt-5 align-items-center justify-content-center">
+                    <Col lg={12} id="pricing">
                         <div className="table-responsive-lg w-lg-75 mx-lg-auto">
                             <Table>
                                 <thead className="text-center">

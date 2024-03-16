@@ -49,7 +49,7 @@ const landings: Demo[] = [
     },
     {
         image: homeStartup,
-        url: '/landing/startup',
+        url: '/importer',
         name: 'Startup',
     },
     {

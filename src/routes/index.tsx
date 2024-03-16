@@ -91,7 +91,12 @@ const AllRoutes = () => {
                 {
                  path: 'uploader', element: <LoadComponent component={Startup} /> 
             },
-
+            {
+                path: 'data-importing',
+                children: [
+                    { path: 'asset-management-system', element: <LoadComponent component={PortfolioItem} /> },
+                ],
+            },
                 {
                     path: 'auth',
                     children: [
@@ -124,6 +129,10 @@ const AllRoutes = () => {
                 {
                     path: 'home',
                     element: <LoadComponent component={Home} />,
+                },
+                {
+                    path: 'importer',
+                    element: <LoadComponent component={Startup} />,
                 },
                 {
                     path: 'landing',

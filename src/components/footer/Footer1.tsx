@@ -6,6 +6,7 @@ import FeatherIcon from 'feather-icons-react';
 import logo from 'assets/images/logo.png';
 
 const Footer1 = () => {
+    
     return (
         <section className="mt-lg-5 pt-5 pb-4 bg-gradient3 position-relative">
             <Container>
@@ -17,26 +18,28 @@ const Footer1 = () => {
                         <p className="text-muted w-75">
                         Data migration automation built for saas companies.
                         </p>
+                        <br></br>
+                        <p className="text-muted">hello@elegan.io</p>
                     </Col>
                     <Col xl="auto" lg={3} xs={6}>
                         <div className="ps-xl-5">
                             <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase"> Platform</h6>
                             <ul className="list-unstyled">
                                 <li className="my-3">
-                                    <Link to="#" className="text-muted">
+                                    <a href="https://calendly.com/elegan/discover" className="text-muted">
                                         Demo
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className="my-3">
-                                    <Link to="#" className="text-muted">
+                                    <a href="/importer#pricing" className="text-muted">
                                         Pricing
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Integrations
-                                    </Link>
-                                </li>
+                  <a href="/importer#integrations" className="text-muted">
+                    Integrations
+                  </a>
+                </li>
                                 <li className="my-3">
                                     <Link to="#" className="text-muted">
                                         Status
@@ -55,25 +58,13 @@ const Footer1 = () => {
                                     </Link>
                                 </li>
                                 <li className="my-3">
-                                    <Link to="#" className="text-muted">
+                                    <Link to="/docs/introduction" className="text-muted">
                                         Help Center
                                     </Link>
                                 </li>
                                 <li className="my-3">
-                                    <Link to="#" className="text-muted">
+                                    <Link to="/docs/introduction" className="text-muted">
                                         API
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </Col>
-                    <Col xl="auto" lg={3} xs={6}>
-                        <div className="ps-xl-5">
-                            <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase">Company</h6>
-                            <ul className="list-unstyled">
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Contact Us
                                     </Link>
                                 </li>
                             </ul>
@@ -98,11 +89,7 @@ const Footer1 = () => {
                                         Terms of Service
                                     </Link>
                                 </li>
-                                <li className="my-3">
-                                    <Link to="#" className="text-muted">
-                                        Trust
-                                    </Link>
-                                </li>
+        
                             </ul>
                         </div>
                     </Col>
@@ -114,7 +101,7 @@ const Footer1 = () => {
                             {new Date().getFullYear()} © Elegan Limited. All rights reserved.
                         </p>
                     </Col>
-                    <Col md={4} className="text-md-end">
+                    {/* <Col md={4} className="text-md-end">
                         <div className="align-items-end mt-md-0 mt-4">
                             <ul className="list-unstyled mb-0">
                                 <li className="d-inline-block me-4">
@@ -134,7 +121,7 @@ const Footer1 = () => {
                                 </li>
                             </ul>
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </section>

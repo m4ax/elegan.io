@@ -23,7 +23,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
     return (
         <Nav as="ul" className={classNames('align-items-lg-center', navClass)}>
             <Nav.Item as="li">
-                <NavLink to="/landing/startup" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                <NavLink to="/importer" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Data importer
                 </NavLink>
             </Nav.Item>
@@ -216,7 +216,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
 
                         <Nav.Item as="li">
                         <NavLink
-                                            to="/pages/portfolio/item"
+                                            to="/data-importing/asset-management-system"
                                             end
                                             className={classNames(
                                                 'nav-link',

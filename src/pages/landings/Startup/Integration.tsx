@@ -11,7 +11,7 @@ const Integrations = ({ integrations }: IntegrationsProps) => {
     return (
         <section className="my-5 py-6 bg-gradient2 position-relative">
             <Container data-aos="fade-up" data-aos-duration="1500">
-                <Row>
+                <Row id="integrations" >
                     <Col className="text-center">
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
                             Integrations
@@ -23,7 +23,7 @@ const Integrations = ({ integrations }: IntegrationsProps) => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row  className="mt-5">
                     {(integrations || []).map((integration, index) => {
                         return (
                             <Col lg={6} key={index.toString()}>

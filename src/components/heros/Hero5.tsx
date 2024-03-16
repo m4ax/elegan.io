@@ -50,7 +50,7 @@ const Hero5 = () => {
                 </Row>
             </Container>
 
-            <div className="align-items-end links-social d-sm-block d-none">
+            {/* <div className="align-items-end links-social d-sm-block d-none">
                 <ul className="list-inline text-muted text-uppercase fw-medium">
                     <li className="list-inline-item py-2">
                         <Link to="#">Twitter</Link>
@@ -62,7 +62,7 @@ const Hero5 = () => {
                         <Link to="#">Instagram</Link>
                     </li>
                 </ul>
-            </div>
+            </div> */}
 
             <div className="shape bottom">
                 <svg

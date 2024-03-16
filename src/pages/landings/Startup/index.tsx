@@ -7,13 +7,14 @@ import ClientsReview from './ClientsReview';
 import Features from './Features';
 import Integrations from './Integration';
 import Pricing from './Pricing';
-import Footer from './Footer';
+import Footer from '../../../components/footer/Footer1';
 import VideoFeature from './VideoFeature'
 import Feature4 from './Feature4'
 import Title from './title';
 import Features3 from '../Saas/Features3';
+import Importer from './importer';
 
-
+import { useEffect } from 'react';
 
 // data
 import { integrations, planFeatures } from './data';
@@ -49,6 +50,18 @@ export { features };
 
 
 const Startup = () => {
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const id = hash.replace('#', '');
+          const element = document.getElementById(id);
+          if (element) {
+            element.scrollIntoView();
+          }
+        }
+      }, []);
+
     return (
         <>
             <div className="header-7">
@@ -69,12 +82,16 @@ const Startup = () => {
 
             {/* features */}
 
+            <Importer />
+
             <Features3 />
+
             <Feature4  features={features}  />
 
 
 
             {/* integration */}
+
             <Integrations integrations={integrations} />
 
 

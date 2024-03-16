@@ -3,7 +3,7 @@ import FeatherIcon from 'feather-icons-react';
 
 // component
 import Gallery from './Gallery';
-import asset from '../../../../assets/images/compare/assetcompare.jpeg';
+import asset from '../../../../assets/images/compare/orders.jpeg';
 
 // types
 import { WorkImages } from '../types';

@@ -7,8 +7,8 @@ import Avatar2 from '../../assets/images/avatars/img-5.jpg';
 import Amazon from '../../assets/images/brands/amazon.svg';
 import Google from '../../assets/images/brands/google.svg';
 
-import saas1 from '../../assets/images/hero/saas1.jpg';
-import saas2 from '../../assets/images/hero/saas2.jpg';
+import saas2 from '../../assets/images/hero/autoformat.gif';
+import saas1 from '../../assets/images/hero/saas2.jpg';
 import saas3 from '../../assets/images/hero/saas3.jpg';
 
 const slides: Slide[] = [
@@ -37,20 +37,15 @@ const slides: Slide[] = [
 const slides1: Slide1[] = [
     {
         image: saas1,
-        slideTitle: 'Manage your saas business with ease',
+        slideTitle: 'Make your customer journey data seamless',
         description:
-            'Make your saas application stand out with high-quality landing page designed and developed by professional.',
+            'Let Elegan do the boring data formatting for them.',
     },
     {
         image: saas2,
-        slideTitle: 'The best way to showcase your mobile app',
+        slideTitle: 'Automatically map different data formats',
         description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    },
-    {
-        image: saas3,
-        slideTitle: 'Smart Solution that convert Lead to Customer',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
-    },
+    }
 ];
 
 export { slides, slides1 };

@@ -226,6 +226,18 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                            Asset Management
                                         </NavLink>
                         </Nav.Item>
+                        <Nav.Item as="li">
+                        <NavLink
+                                            to="/data-importing/order-fulfilment"
+                                            end
+                                            className={classNames(
+                                                'nav-link',
+                                                ({ ...isActive }) => isActive && 'active'
+                                            )}
+                                        >
+                                           Order Fulfilment
+                                        </NavLink>
+                        </Nav.Item>
 
 
                         {/* <Nav.Item as="li">

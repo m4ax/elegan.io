@@ -44,7 +44,7 @@ const slides1: Slide1[] = [
     {
         image: saas2,
         slideTitle: 'Automatically map different data formats',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.',
+        description: 'Accept competitor data formats and convert them to your own.',
     }
 ];
 

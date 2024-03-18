@@ -14,9 +14,8 @@ const Hero = () => {
 
                 <Row className="border-top border-bottom py-4 align-items-center mt-5">
                     <Col>
-                        <span className="fs-14">Time Saved</span>
+                        <span className="fs-14">Daily Time Saved</span>
                         <h4 className="mt-1 fw-medium">10-20 minutes</h4>
-                        <p className="italic">Daily</p>
                     </Col>
                     <Col>
                         <span className="fs-14">Category</span>
@@ -24,7 +23,7 @@ const Hero = () => {
                     </Col>
                     <Col>
                         <span className="fs-14">File Size</span>
-                        <h4 className="mt-1 fw-medium">75,000 rows</h4>
+                        <h4 className="mt-1 fw-medium">150 rows</h4>
                     </Col>
                     <Col xs="auto">
                         <ul className="list-inline mb-0 me-3">

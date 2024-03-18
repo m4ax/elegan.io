@@ -38,7 +38,7 @@ const Content = ({ workImages }: ContentProps) => {
                         <div className="pe-4">
                             <h3>About Migration</h3>
                             <p>
-                               Our model impressed us with this one. Not only was it able to identify that "Annual Dep" was a depreciation metric, but it also undertood that the output file of current value, required the calculation wth depreciation rate, date, current price and purchase date.
+                            For the project at hand, our AI remarkably identified and aligned customer order data from various sales platforms, such as Etsy, to the preferred format for the poster company's system. This includes precise mapping of fields such as 'ORDER ID' to 'EXTERNAL ID', ensuring accuracy in the reflection of item descriptions and managing date formats. Particularly commendable was the AI’s handling of addresses and contact information, streamlining it into a uniform structure which will significantly ease the order fulfilment process.
                             </p>
                         </div>
                     </Col>
@@ -46,24 +46,24 @@ const Content = ({ workImages }: ContentProps) => {
                         <div className="ps-4">
                             <h3>Project Description</h3>
                             <p>
-                                Elegan was useful in migrating the data from the old asset management system to the new one. It was able to identify the data and migrate it to the new system without any issues.
+                            Elegan played a crucial role in the transition of customer sales data into the company’s own schema for a poster company. The AI’s intuitive understanding of different data elements allowed for seamless integration of external sales information into the internal order management system. The result was an efficient, reliable data migration that required minimal manual intervention, setting a high standard for future onboarding of sales data.
                             </p>
                         </div>
                     </Col>
                 </Row>
 
-                {/* image */}
+                {/* image
                 <Row className="mt-5">
                     <Col lg={12}>
                         <Gallery />
                     </Col>
-                </Row>
+                </Row> */}
 
                 {/* work description */}
                 <Row className="mt-5" data-aos="fade-up" data-aos-duration="300">
                     <Col lg={12}>
                         <p>
-                            This was an example migration that we used to test the capabilities of Elegan. It was able to identify the data and migrate it to the desired schema automatically. Although, it is important to note that this does not aways happen. If your customer does get a data error, they have the ability in the flow to fix it without ever leaving your platform. 
+                        The adoption of our software permitted the poster company's users to efficiently migrate their sales data via a straightforward drag-and-drop interface. This negated the necessity for bespoke coding for distinct marketplace integrations or the manual restructuring of data within spreadsheet applications. Consequently, the software's capability to intuitively align different data structures to the company's requirements has significantly reduced the time and resources typically expended on data preparation, enabling everyone to focus more on their core business operations.
                         </p>
 
                         <Row className="mt-5">

@@ -8,7 +8,7 @@ import classNames from 'classnames';
 import { Feature } from './types';
 
 // images
-import saas1 from 'assets/images/hero/saas1.jpg';
+import saas1 from 'assets/images/hero/flow.gif';
 
 type FeaturesProps = {
     features: Feature[];

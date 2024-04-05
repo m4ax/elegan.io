@@ -11,17 +11,17 @@ const Footer1 = () => {
         <section className="mt-lg-5 pt-5 pb-4 bg-gradient3 position-relative">
             <Container>
                 <Row>
-                    <Col xl={4}>
+                    <Col xl={8}>
                         <Link className="navbar-brand me-lg-4 mb-4 me-auto d-flex align-items-center pt-0" to="#">
                             <img src={logo} height="30" alt="" />
                         </Link>
                         <p className="text-muted w-75">
-                        Data migration automation built for saas companies.
+                        Data migration automation.
                         </p>
                         <br></br>
                         <p className="text-muted">hello@elegan.io</p>
                     </Col>
-                    <Col xl="auto" lg={3} xs={6}>
+                    <Col xl="auto" lg={6} xs={6}>
                         <div className="ps-xl-5">
                             <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase"> Platform</h6>
                             <ul className="list-unstyled">
@@ -40,11 +40,11 @@ const Footer1 = () => {
                     Integrations
                   </a>
                 </li>
-                                <li className="my-3">
+                                {/* <li className="my-3">
                                     <Link to="#" className="text-muted">
                                         Status
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </Col>
@@ -52,11 +52,11 @@ const Footer1 = () => {
                         <div className="ps-xl-5">
                             <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase">Knowledge Base</h6>
                             <ul className="list-unstyled">
-                                <li className="my-3">
+                                {/* <li className="my-3">
                                     <Link to="#" className="text-muted">
                                         Blog
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="my-3">
                                     <Link to="/docs/introduction" className="text-muted">
                                         Help Center
@@ -70,7 +70,7 @@ const Footer1 = () => {
                             </ul>
                         </div>
                     </Col>
-                    <Col xl="auto" lg={3} xs={6}>
+                    {/* <Col xl="auto" lg={3} xs={6}>
                         <div className="ps-xl-5">
                             <h6 className="mb-3 mt-3 mt-sm-2 fs-14 fw-semibold text-uppercase">Legal</h6>
                             <ul className="list-unstyled">
@@ -92,7 +92,7 @@ const Footer1 = () => {
         
                             </ul>
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
                 <hr />
                 <Row className="text-md-start text-center">

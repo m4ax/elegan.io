@@ -20,7 +20,7 @@ const Features2 = () => {
                                 Use Elegan to accept data in any format. We'll handle all the boring stuff.
                                 What's important is your customers can use your product straight away.
                             </p>
-                            <Link to="#" className="h6 text-primary pt-3">
+                            <Link to="/importer" className="h6 text-primary pt-3">
                                 Learn more
                                 <FeatherIcon className="ms-1 icon-xxs" icon="arrow-right" />
                             </Link>

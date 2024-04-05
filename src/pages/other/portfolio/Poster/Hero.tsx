@@ -23,7 +23,7 @@ const Hero = () => {
                     </Col>
                     <Col>
                         <span className="fs-14">File Size</span>
-                        <h4 className="mt-1 fw-medium">150 rows</h4>
+                        <h4 className="mt-1 fw-medium">850 rows</h4>
                     </Col>
                     <Col xs="auto">
                         <ul className="list-inline mb-0 me-3">

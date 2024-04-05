@@ -81,12 +81,12 @@ const Navbar3 = ({ isSticky, navClass, buttonClass, fixedWidth }: Navbar3Props) 
                                 </Nav.Item>
                             )}
                             <Nav.Item as="li">
-                                <Link
-                                    to="#"
+                                <a
+                                  href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer"
                                     className={classNames('btn', buttonClass ? buttonClass : 'btn-soft-primary')}
                                 >
                                     Try Free
-                                </Link>
+                                </a>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>

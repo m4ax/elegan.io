@@ -65,9 +65,9 @@ const Features3 = () => {
                 </Row>
                 <Row className="mt-5 justify-content-center">
                     <Col xs="auto">
-                        <Link to="#" className="btn btn-primary mb-2">
+                    <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer" className="btn btn-primary mb-2">
                             Try Now <FeatherIcon className="icon-xs ms-2" icon="arrow-right" />
-                        </Link>
+                        </a>
                     </Col>
                 </Row>
             </Container>

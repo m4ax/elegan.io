@@ -6,8 +6,8 @@ import { Feature, Feature3 } from './types';
 const features: Feature[] = [
         {
         avatar: 'user-plus',
-        title: "You are making new customers work too hard.",
-        description: "Forcing new users to manually adjust their data to match your system's requirements is painful. Potential customers are made to jump through hoops just to use your product.",
+        title: "You are making customers work too hard.",
+        description: "Forcing users to manually adjust their data to match your system's requirements is painful. Potential customers are made to jump through hoops just to use your product.",
         variant: 'primary',
         containerClass: 'd-flex border-bottom py-4',
     },
@@ -85,13 +85,13 @@ const features3: Feature3[] = [
         variant: 'orange',
         icon: 'clock',
         title: 'Time to value',
-        description: 'How long for a customer to get value?',
+        description: 'How long for a customer to get value from your service?',
     },
     {
         variant: 'info',
         icon: 'mail',
         title: 'Customer queries',
-        description: 'How many come from data importing? What is the cost?',
+        description: 'How many come from data importing? What is the cost per ticket?',
     },
     {
         variant: 'info',
@@ -103,7 +103,7 @@ const features3: Feature3[] = [
         variant: 'danger',
         icon: 'dollar-sign',
         title: 'Data migration cost',
-        description: 'How much does it cost you? How about your customer?',
+        description: 'How much does data wrangling cost you? How about your customer?',
     },
     {
         variant: 'warning',

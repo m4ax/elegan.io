@@ -34,7 +34,9 @@ const Hero12 = () => {
                                     </Col>
                                     <Col sm={3}>
                                         <div>
+                                            <a  href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer">
                                             <Button className="mb-2">Sign Up</Button>
+                                            </a>
                                         </div>
                                     </Col>
                                 </Row>

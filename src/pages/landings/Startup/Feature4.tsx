@@ -36,13 +36,13 @@ const Feature4 = ({ features }: FeatureProps) => {
                     </Col>
                     <Col lg={4}>
                         <div className="text-lg-center mt-5 mt-lg-0">
-                            <Link to="#" className="btn btn-primary rounded">
+                        <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer" className="btn btn-primary rounded">
                                 Try for Free
                                 <FeatherIcon icon="arrow-right" className="icon-xs ms-1" />
-                            </Link>
+                            </a>
                             <p className="text=muted mt-2 fs-12">
                                 Unsure where to start?
-                              {' '}  <Link to="#">Click Here</Link>
+                              {' '}   <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer">Click Here</a>
                             </p>
                         </div>
                     </Col>

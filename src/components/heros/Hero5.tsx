@@ -43,9 +43,9 @@ const Hero5 = () => {
                             Try Yourself
                         </Link>
 
-                        <Link to="#" className="btn btn-outline-secondary ms-2">
+                        <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer" className="btn btn-outline-secondary ms-2">
                             Learn More
-                        </Link>
+                        </a>
                     </Col>
                 </Row>
             </Container>

@@ -89,9 +89,9 @@ const Features1 = ({ features, containerClass }: FeaturesProps) => {
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
                             Data Onboarding
                         </Badge>
-                        <h2 className="display-5 fw-medium big">You’re letting competitors steal low hanging fruit.</h2>
+                        <h2 className="display-5 fw-medium big">You can embed our automated csv importer in 45 minutes</h2>
                         <p className="text-muted mx-auto">
-                            Purchase ready buyers get put off by poor <span className="text-primary fw-bold">data onboarding</span>.
+                            and accept customer csv data in their<span className="text-primary fw-bold"> native format</span>.
                         </p>
                     </Col>
                 </Row>

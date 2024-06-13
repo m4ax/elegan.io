@@ -3,7 +3,7 @@ import FeatherIcon from 'feather-icons-react';
 
 // component
 import Gallery from './Gallery';
-import asset from '../../../../assets/images/compare/orders.jpeg';
+import asset from '../../../../assets/images/compare/customer.jpeg';
 
 // types
 import { WorkImages } from '../types';
@@ -38,7 +38,8 @@ const Content = ({ workImages }: ContentProps) => {
                         <div className="pe-4">
                             <h3>About Migration</h3>
                             <p>
-                            For the project at hand, our AI remarkably identified and aligned customer order data from various sales platforms, such as Etsy, to the preferred format for the poster company's system. This includes precise mapping of fields such as 'ORDER ID' to 'EXTERNAL ID', ensuring accuracy in the reflection of item descriptions and managing date formats. Particularly commendable was the AI’s handling of addresses and contact information, streamlining it into a uniform structure which will significantly ease the order fulfilment process.
+                            For the project at hand, our systems remarkably identified and aligned customer order data from various sales platforms, such as Etsy, eBay and WooCommerce to the preferred format for the poster company's system. 
+                            This includes precise mapping of fields such as 'ORDER ID' to 'EXTERNAL ID', ensuring accuracy in the reflection of item descriptions and managing date formats. Particularly commendable was the AI’s handling of addresses and contact information, streamlining it into the new structure.
                             </p>
                         </div>
                     </Col>
@@ -46,7 +47,7 @@ const Content = ({ workImages }: ContentProps) => {
                         <div className="ps-4">
                             <h3>Project Description</h3>
                             <p>
-                            Elegan played a crucial role in the transition of customer sales data into the company’s own schema for a poster company. The AI’s intuitive understanding of different data elements allowed for seamless integration of external sales information into the internal order management system. The result was an efficient, reliable data migration that required minimal manual intervention, setting a high standard for future onboarding of sales data.
+                            Elegan played a crucial role in the transition of customer sales data into the company’s own schema for a poster company. The AI’s intuitive understanding of different data elements allowed for seamless integration of external sales information into the internal order management system. The result was an efficient, reliable data migration that required minimal manual intervention.
                             </p>
                         </div>
                     </Col>
@@ -63,7 +64,7 @@ const Content = ({ workImages }: ContentProps) => {
                 <Row className="mt-5" data-aos="fade-up" data-aos-duration="300">
                     <Col lg={12}>
                         <p>
-                        The adoption of our software permitted the poster company's users to efficiently migrate their sales data via a straightforward drag-and-drop interface. This negated the necessity for bespoke coding for distinct marketplace integrations or the manual restructuring of data within spreadsheet applications. Consequently, the software's capability to intuitively align different data structures to the company's requirements has significantly reduced the time and resources typically expended on data preparation, enabling everyone to focus more on their core business operations.
+                        The adoption of our software permitted the poster company's users to efficiently migrate their sales data via a straightforward drag-and-drop interface. This negated the necessity for bespoke coding for distinct marketplace integrations or the manual restructuring of data within spreadsheet applications. Consequently, the software's capability to intuitively align different data structures to the company's requirements has significantly reduced the time and resources typically expended on data preparation, enabling the company, and their users, to focus more on their core business operations.
                         </p>
 
                         <Row className="mt-5">

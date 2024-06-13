@@ -8,22 +8,22 @@ const Hero = () => {
             <Container>
                 <Row className="justify-content-center">
                     <Col lg={10} className="text-center">
-                        <h1 className="hero-title">Migrating Order Fulfilment Software</h1>
+                        <h1 className="hero-title">Migrating CRM Systems</h1>
                     </Col>
                 </Row>
 
                 <Row className="border-top border-bottom py-4 align-items-center mt-5">
                     <Col>
-                        <span className="fs-14">Daily Time Saved</span>
-                        <h4 className="mt-1 fw-medium">10-20 minutes</h4>
+                        <span className="fs-14">Time Saved</span>
+                        <h4 className="mt-1 fw-medium">3 hours</h4>
                     </Col>
                     <Col>
                         <span className="fs-14">Category</span>
-                        <h4 className="mt-1 fw-medium">Order Management</h4>
+                        <h4 className="mt-1 fw-medium">Client Info Data</h4>
                     </Col>
                     <Col>
                         <span className="fs-14">File Size</span>
-                        <h4 className="mt-1 fw-medium">850 rows</h4>
+                        <h4 className="mt-1 fw-medium">4,500 rows</h4>
                     </Col>
                     <Col xs="auto">
                         <ul className="list-inline mb-0 me-3">

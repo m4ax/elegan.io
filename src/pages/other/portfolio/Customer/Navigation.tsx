@@ -26,8 +26,8 @@ const DesktopPopover = (
             <div className="d-flex align-items-center">
                 <img src={img2} alt="img2" height="60" className="me-3 rounded-sm" />
                 <div className="flex-grow-1">
-                    <h6 className="fs-14 fw-semibold mt-0 mb-1">Awesome Desktop App</h6>
-                    <span className="d-block fs-13 text-muted">Desktop App</span>
+                    <h6 className="fs-14 fw-semibold mt-0 mb-1">Customer Data Migration</h6>
+                    <span className="d-block fs-13 text-muted">By Elegan Ltd</span>
                 </div>
             </div>
         </Popover.Body>
@@ -40,10 +40,12 @@ const Navigation = () => {
             <Container>
                 <Row className="border-top border-bottom py-4 align-items-center">
                     <Col md={4} sm={6} className="text-md-start text-center">
-                            <Button variant="white" href="/data-importing/order-fulfilment">
+                        {/* <OverlayTrigger placement="top" overlay={AwesomePopover}> */}
+                            <Button variant="white" href="/data-importing/asset-management-system">
                                 <FeatherIcon icon="arrow-left" className="icon icon-xs me-2" />
-                                Order Data
+                                Asset Data
                             </Button>
+                        {/* </OverlayTrigger> */}
                     </Col>
                     <Col md={4} className="text-md-center">
                         <Link to="#" className="btn btn-white my-md-0 my-3">
@@ -51,10 +53,12 @@ const Navigation = () => {
                         </Link>
                     </Col>
                     <Col md={4} sm={6} className="text-md-end">
-                            <Button variant="white" href="/data-importing/customer-data">
-                                Customer Data
+                        {/* <OverlayTrigger placement="top" overlay={DesktopPopover}> */}
+                            <Button variant="white" href="/data-importing/order-fulfilment">
+                                Order Data
                                 <FeatherIcon icon="arrow-right" className="icon icon-xs ms-2" />
                             </Button>
+                        {/* </OverlayTrigger> */}
                     </Col>
                 </Row>
             </Container>

@@ -79,7 +79,7 @@ const features3: Feature3[] = [
         variant: 'teal',
         icon: 'user',
         title: 'Customer experience',
-        description: 'Do your customers find your data onboarding painless?',
+        description: 'Do you make your customers download and fill out a template?',
     },
     {
         variant: 'orange',

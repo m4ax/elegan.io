@@ -23,7 +23,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
     return (
         <Nav as="ul" className={classNames('align-items-lg-center', navClass)}>
             <Nav.Item as="li">
-                <NavLink to="/importer" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                <NavLink to="/embed-csv-importer" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Data importer
                 </NavLink>
             </Nav.Item>
@@ -223,7 +223,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                                 ({ ...isActive }) => isActive && 'active'
                                             )}
                                         >
-                                           Asset Management
+                                           Asset Data
                                         </NavLink>
                         </Nav.Item>
                         <Nav.Item as="li">
@@ -235,9 +235,22 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                                 ({ ...isActive }) => isActive && 'active'
                                             )}
                                         >
-                                           Order Fulfilment
+                                           Order Data
+                                        </NavLink>
+                                </Nav.Item>
+                                                <Nav.Item as="li">
+                        <NavLink
+                                            to="/data-importing/customer-data"
+                                            end
+                                            className={classNames(
+                                                'nav-link',
+                                                ({ ...isActive }) => isActive && 'active'
+                                            )}
+                                        >
+                                           Customer Data
                                         </NavLink>
                         </Nav.Item>
+                        
 
 
                         {/* <Nav.Item as="li">

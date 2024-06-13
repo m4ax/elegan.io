@@ -7,8 +7,8 @@ const Hero = () => {
         <section className="hero-4 pb-5 pt-7 py-sm-7">
             <Container>
                 <Row className="justify-content-center">
-                    <Col lg={7} className="text-center">
-                        <h1 className="hero-title">Asset Mangement System</h1>
+                    <Col lg={10} className="text-center">
+                        <h1 className="hero-title">Migrating Asset Mangement Data</h1>
                     </Col>
                 </Row>
 

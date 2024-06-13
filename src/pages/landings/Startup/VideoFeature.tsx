@@ -32,7 +32,7 @@ const VideoFeature = () => {
                                     </span>
                                 </div>
                                 <div className="fw-medium fs-16 align-self-center flex-grow-1">
-                                    No manual work 
+                                    No template download 
                                 </div>
                             </div>
 

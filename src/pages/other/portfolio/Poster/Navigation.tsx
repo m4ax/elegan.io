@@ -40,12 +40,11 @@ const Navigation = () => {
             <Container>
                 <Row className="border-top border-bottom py-4 align-items-center">
                     <Col md={4} sm={6} className="text-md-start text-center">
-                        <OverlayTrigger placement="top" overlay={AwesomePopover}>
-                            <Button variant="white">
+                            <Button variant="white" href="/data-importing/asset-management-system">
                                 <FeatherIcon icon="arrow-left" className="icon icon-xs me-2" />
-                                Awesome Saas App
+                                Asset Data
                             </Button>
-                        </OverlayTrigger>
+                        
                     </Col>
                     <Col md={4} className="text-md-center">
                         <Link to="#" className="btn btn-white my-md-0 my-3">
@@ -53,12 +52,10 @@ const Navigation = () => {
                         </Link>
                     </Col>
                     <Col md={4} sm={6} className="text-md-end">
-                        <OverlayTrigger placement="top" overlay={DesktopPopover}>
-                            <Button variant="white">
-                                Desktop App
+                            <Button variant="white" href="/data-importing/customer-data">
+                                CRM Data
                                 <FeatherIcon icon="arrow-right" className="icon icon-xs ms-2" />
                             </Button>
-                        </OverlayTrigger>
                     </Col>
                 </Row>
             </Container>

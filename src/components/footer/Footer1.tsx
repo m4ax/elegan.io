@@ -31,12 +31,12 @@ const Footer1 = () => {
                                     </a>
                                 </li>
                                 <li className="my-3">
-                                    <a href="/importer#pricing" className="text-muted">
+                                    <a href="/embed-csv-importer#pricing" className="text-muted">
                                         Pricing
                                     </a>
                                 </li>
                                 <li className="my-3">
-                  <a href="/importer#integrations" className="text-muted">
+                  <a href="/embed-csv-importer#integrations" className="text-muted">
                     Integrations
                   </a>
                 </li>

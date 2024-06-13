@@ -49,7 +49,7 @@ const landings: Demo[] = [
     },
     {
         image: homeStartup,
-        url: '/importer',
+        url: '/embed-csv-importer',
         name: 'Startup',
     },
     {

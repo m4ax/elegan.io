@@ -32,18 +32,18 @@ const Pricing = ({ planFeatures }: PricingProps) => {
                                         <th className="w-50"></th>
                                         <th>
                                             <span className="text-dark">Starter</span>
-                                            <small className="d-block text-body fw-normal">£0/yr</small>
+                                            <small className="d-block text-body fw-normal">Free</small>
                                         </th>
                                         <th className="border-start border-end">
                                             <span className="text-dark">Business</span>
                                             {/* <Badge bg="orange" pill className="ms-1">
                                                 Popular
                                             </Badge> */}
-                                            <small className="d-block text-body fw-normal">£5,000/yr</small>
+                                            <small className="d-block text-body fw-normal">£49/month</small>
                                         </th>
                                         <th>
                                             <span className="text-dark">Enterprise</span>
-                                            <small className="d-block text-body fw-normal">£25,000/yr</small>
+                                            <small className="d-block text-body fw-normal">£2,000/month</small>
                                         </th>
                                     </tr>
                                 </thead>
@@ -86,6 +86,7 @@ const Pricing = ({ planFeatures }: PricingProps) => {
         )
     ) : null}
 </td>
+
 
 
 <td className="text-center">

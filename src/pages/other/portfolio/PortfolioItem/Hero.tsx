@@ -8,7 +8,7 @@ const Hero = () => {
             <Container>
                 <Row className="justify-content-center">
                     <Col lg={10} className="text-center">
-                        <h1 className="hero-title">Migrating Asset Mangement Data</h1>
+                        <h1 className="hero-title">Importing Asset Management Data</h1>
                     </Col>
                 </Row>
 
@@ -19,7 +19,7 @@ const Hero = () => {
                     </Col>
                     <Col>
                         <span className="fs-14">Category</span>
-                        <h4 className="mt-1 fw-medium">Asset Management</h4>
+                        <h4 className="mt-1 fw-medium">Asset Management Software</h4>
                     </Col>
                     <Col>
                         <span className="fs-14">File Size</span>

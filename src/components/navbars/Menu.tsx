@@ -226,6 +226,30 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                            Asset Data
                                         </NavLink>
                         </Nav.Item>
+                                                                        <Nav.Item as="li">
+                        <NavLink
+                                            to="/data-importing/customer-data"
+                                            end
+                                            className={classNames(
+                                                'nav-link',
+                                                ({ ...isActive }) => isActive && 'active'
+                                            )}
+                                        >
+                                           Customer Data
+                                        </NavLink>
+                        </Nav.Item>
+                                                                                      <Nav.Item as="li">
+                        <NavLink
+                                            to="/data-importing/financial-data-migration"
+                                            end
+                                            className={classNames(
+                                                'nav-link',
+                                                ({ ...isActive }) => isActive && 'active'
+                                            )}
+                                        >
+                                           Financial Data
+                                        </NavLink>
+                        </Nav.Item>
                         <Nav.Item as="li">
                         <NavLink
                                             to="/data-importing/order-fulfilment"
@@ -238,19 +262,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                            Order Data
                                         </NavLink>
                                 </Nav.Item>
-                                                <Nav.Item as="li">
-                        <NavLink
-                                            to="/data-importing/customer-data"
-                                            end
-                                            className={classNames(
-                                                'nav-link',
-                                                ({ ...isActive }) => isActive && 'active'
-                                            )}
-                                        >
-                                           Customer Data
-                                        </NavLink>
-                        </Nav.Item>
-                        
+
 
 
                         {/* <Nav.Item as="li">

@@ -101,7 +101,7 @@ const AllRoutes = () => {
                     { path: 'asset-management-system', element: <LoadComponent component={PortfolioItem} /> },
                     { path: 'customer-data', element: <LoadComponent component={Customer} /> },
                     { path: 'order-fulfilment', element: <LoadComponent component={Poster} /> },
-                    { path: 'financial-data-migration', element: <LoadComponent component={Financial} /> },
+                    { path: 'financial-data', element: <LoadComponent component={Financial} /> },
 
                     
                 ],

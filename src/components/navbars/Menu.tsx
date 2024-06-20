@@ -240,7 +240,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                         </Nav.Item>
                                                                                       <Nav.Item as="li">
                         <NavLink
-                                            to="/data-importing/financial-data-migration"
+                                            to="/data-importing/financial-data"
                                             end
                                             className={classNames(
                                                 'nav-link',

@@ -238,9 +238,21 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                            Customer Data
                                         </NavLink>
                         </Nav.Item>
+                                                            <Nav.Item as="li">
+                        <NavLink
+                                            to="/data-importing/hr-software"
+                                            end
+                                            className={classNames(
+                                                'nav-link',
+                                                ({ ...isActive }) => isActive && 'active'
+                                            )}
+                                        >
+                                           Employee Data
+                                        </NavLink>
+                                </Nav.Item>
                                                                                       <Nav.Item as="li">
                         <NavLink
-                                            to="/data-importing/financial-data"
+                                            to="/data-importing/financial-system"
                                             end
                                             className={classNames(
                                                 'nav-link',
@@ -262,6 +274,20 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                            Order Data
                                         </NavLink>
                                 </Nav.Item>
+                                        <Nav.Item as="li">
+                        <NavLink
+                                            to="/data-importing/sales-software"
+                                            end
+                                            className={classNames(
+                                                'nav-link',
+                                                ({ ...isActive }) => isActive && 'active'
+                                            )}
+                                        >
+                                           Sales Data
+                                        </NavLink>
+                                </Nav.Item>
+
+   
 
 
 

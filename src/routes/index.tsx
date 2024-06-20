@@ -46,6 +46,9 @@ const PortfolioMasonry = React.lazy(() => import('../pages/other/portfolio/Portf
 const PortfolioItem = React.lazy(() => import('../pages/other/portfolio/PortfolioItem'));
 const Poster = React.lazy(() => import('../pages/other/portfolio/Poster'));
 const Financial = React.lazy(() => import('../pages/other/portfolio/Financial'));
+const HR = React.lazy(() => import('../pages/other/portfolio/HR'));
+const Sales = React.lazy(() => import('../pages/other/portfolio/Sales'));
+
 
 const Customer = React.lazy(() => import('../pages/other/portfolio/Customer'));
 
@@ -101,8 +104,9 @@ const AllRoutes = () => {
                     { path: 'asset-management-system', element: <LoadComponent component={PortfolioItem} /> },
                     { path: 'customer-data', element: <LoadComponent component={Customer} /> },
                     { path: 'order-fulfilment', element: <LoadComponent component={Poster} /> },
-                    { path: 'financial-data', element: <LoadComponent component={Financial} /> },
-
+                    { path: 'financial-system', element: <LoadComponent component={Financial} /> },
+                    { path: 'hr-software', element: <LoadComponent component={HR} /> },
+                    { path: 'sales-software', element: <LoadComponent component={Sales} /> },
                     
                 ],
             },

@@ -38,10 +38,10 @@ const Hero5 = () => {
                            You control your customers journey, don't make it difficult.
                         </p>
 
-                        <Link to="#" className="btn btn-secondary">
-                            <FeatherIcon icon="arrow-down" className="icon-xxs me-2" />
-                            Try Yourself
-                        </Link>
+                <a href="#try" className="btn btn-secondary">
+    <FeatherIcon icon="arrow-down" className="icon-xxs me-2" />
+    Try Yourself
+</a>
 
                         <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer" className="btn btn-outline-secondary ms-2">
                             Learn More

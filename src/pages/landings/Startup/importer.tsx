@@ -7,10 +7,10 @@ import Marketing from 'assets/images/features/importer.png';
 
 const Importer = () => {
     return (
-        <section className="py-5 position-relative" data-aos="fade-up">
+        <section id="try" className="py-5 position-relative" data-aos="fade-up">
             <Container>
             <Col className="text-center"> 
-                        <h1 className="display-5 fw-semibold spacing-elegan-you">Try for yourself</h1>
+                        <h1  className="display-5 fw-semibold spacing-elegan-you">Try for yourself</h1>
                     </Col>
                 <Row className="features-8">
                     <Col lg={12}>

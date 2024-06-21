@@ -16,6 +16,7 @@ type DocsLayoutProps = {
 const DocsLayout = ({ children, rightMenuItems }: DocsLayoutProps) => {
     return (
         <>
+
             <Navbar3 navClass="shadow fixed-top navbar-light bg-white" buttonClass="btn-outline-primary btn-sm" />
             <div className="content py-0 py-sm-4 px-0 px-sm-3 bg-light min-vh-100">
                 <Container fluid>

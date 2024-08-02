@@ -331,7 +331,7 @@ const Menu = ({ navClass, buttonClass, showDownload, loggedInUser }: MenuProps) 
                                 end
                                 className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}
                             >
-                                Getting Started
+                                Tutorial
                             </NavLink>
                         </Nav.Item>
                        

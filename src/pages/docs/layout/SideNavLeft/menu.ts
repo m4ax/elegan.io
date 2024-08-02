@@ -4,7 +4,7 @@ import { MenuItem } from 'types';
 export const MENU_ITEMS: MenuItem[] = [
     {
         key: 'getting-started',
-        label: 'Getting Started',
+        label: 'Creating Importer',
         children: [
             {
                 key: 'introduction',

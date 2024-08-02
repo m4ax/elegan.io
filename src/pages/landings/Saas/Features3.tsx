@@ -59,7 +59,7 @@ const Features3 = () => {
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Custom functions
+                            Auto mapping
                         </h6>
                     </Col>
                 </Row>

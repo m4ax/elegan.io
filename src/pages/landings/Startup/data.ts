@@ -120,19 +120,6 @@ const planFeatures: PlanFeature[] = [
             available: true,
         },
     },
-    {
-        name: 'Private hosting',
-        starter: {
-            available: false,
-        },
-        professional: {
-            available: false,
-        },
-        enterprise: {
-            available: false,
-            addon: true,
-        },
-    },
     // {
     //     "name": "Cost per record",
     //     "starter": {

@@ -26,7 +26,7 @@ const Features3 = () => {
                     <Col lg={3} md={6}>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />
-                            Protect first Impressions
+                            Protect first impressions
                         </h6>
                         <h6 className="fw-medium fs-16 mb-4">
                             <FeatherIcon className="icon-sm icon-dual-success me-2" icon="check" />

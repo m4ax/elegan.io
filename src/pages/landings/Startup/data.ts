@@ -58,7 +58,7 @@ const planFeatures: PlanFeature[] = [
         },
     },
     {
-        name: 'Custom functions & validations',
+        name: 'Auto Header Mapping',
         starter: {
             available: true,
         },
@@ -70,10 +70,21 @@ const planFeatures: PlanFeature[] = [
         },
     },
     {
-        name: 'Unlimited monthly rows',
+        name: 'AI Error Handling',
+        starter: {
+            available: true,
+        },
+        professional: {
+            available: true,
+        },
+        enterprise: {
+            available: true,
+        },
+    },
+    {
+        name: 'Handle million row files',
         starter: {
             available: false,
-            addon: true,
         },
         professional: {
             available: true,
@@ -95,6 +106,21 @@ const planFeatures: PlanFeature[] = [
         },
     },
     {
+        name: 'Unlimited monthly rows',
+        starter: {
+            available: false,
+            addon: true,
+        },
+        professional: {
+            available: true,
+            addon: true,
+
+        },
+        enterprise: {
+            available: true,
+        },
+    },
+    {
         name: 'Private hosting',
         starter: {
             available: false,
@@ -107,24 +133,24 @@ const planFeatures: PlanFeature[] = [
             addon: true,
         },
     },
-    {
-        "name": "Cost per record",
-        "starter": {
-            "available": false,
-            "addon": true,
-            "price": "£0.0010" // Example, adjust as needed
-        },
-        "professional": {
-            "available": false,
-            "addon": true,
-            "price": "£0.0005" // Example, adjust as needed
-        },
-        "enterprise": {
-            "available": false,
-            "addon": true,
-            "price": "Contact us"
-        }
-    }
+    // {
+    //     "name": "Cost per record",
+    //     "starter": {
+    //         "available": false,
+    //         "addon": true,
+    //         "price": "£0.0010" // Example, adjust as needed
+    //     },
+    //     "professional": {
+    //         "available": false,
+    //         "addon": true,
+    //         "price": "£0.0005" // Example, adjust as needed
+    //     },
+    //     "enterprise": {
+    //         "available": false,
+    //         "addon": true,
+    //         "price": "Contact us"
+    //     }
+    // }
     
 
 ];

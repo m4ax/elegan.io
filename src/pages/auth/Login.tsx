@@ -61,9 +61,9 @@ const Login = () => {
                 bottomLinks={
                     <p className="text-muted">
                         {t("Don't have an account?")}
-                        <Link to="/auth/signup" className="text-primary fw-semibold ms-1">
-                            {t('Sign Up')}
-                        </Link>
+                        <a href="https://calendly.com/elegan/discover" className="text-primary fw-semibold ms-1">
+                            {t('Contact us')}
+                        </a>
                     </p>
                 }
             >

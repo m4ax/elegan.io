@@ -82,7 +82,7 @@ const Startup = () => {
 
             {/* features */}
 
-            <Importer />
+            {/* <Importer /> */}
 
             <Features3 />
 

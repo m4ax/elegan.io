@@ -39,7 +39,7 @@ const Pricing = ({ planFeatures }: PricingProps) => {
                                             {/* <Badge bg="orange" pill className="ms-1">
                                                 Popular
                                             </Badge> */}
-                                            <small className="d-block text-body fw-normal">£49/month</small>
+                                            <small className="d-block text-body fw-normal">£99/month</small>
                                         </th>
                                         <th>
                                             <span className="text-dark">Enterprise</span>
@@ -63,29 +63,25 @@ const Pricing = ({ planFeatures }: PricingProps) => {
                 {planFeature.starter.price}
             </Badge>
         ) : (
-            <p className="input-data">120k</p>
+                                                                    <p className="input-data">
+                                                                        250k
+                                                                    </p>
         )
     ) : null}
 </td>
 
 
-<td className="text-center border-start border-end">
-    {planFeature.professional.available ? (
-        <span className="icon icon-xs text-success">
-            <FeatherIcon icon="check" />
-        </span>
-    ) : planFeature.professional.addon ? (
-        planFeature.professional.price ? (
-            <Badge bg="info" pill>
-                {planFeature.professional.price}
-            </Badge>
-        ) : (
-            <Badge bg="dark" pill>
-                Add-on Available
-            </Badge>
-        )
-    ) : null}
-</td>
+                                                <td className="text-center border-start border-end">
+                                                    {planFeature.professional.addon ? (
+                                                        <p className="input-data">
+                                                            10 Million
+                                                        </p>
+                                                    ) : planFeature.professional.available ? (
+                                                        <span className="icon icon-xs text-success">
+                                                            <FeatherIcon icon="check" />
+                                                        </span>
+                                                    ) : null}
+                                                </td>
 
 
 

@@ -24,7 +24,7 @@ const DocsLayout = ({ children, rightMenuItems }: DocsLayoutProps) => {
                         <Col xs={12} xl={2} md={3} className={rightMenuItems && 'sidenav sidenav-left'}>
                             <SideNav />
                         </Col>
-                        {children}
+                        {children} 
 
                         {rightMenuItems && (
                             <Col xs={12} lg={2} xl={2} className="d-none d-xl-block px-xl-0 sidenav sidenav-right">

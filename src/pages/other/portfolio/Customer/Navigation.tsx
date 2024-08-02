@@ -48,9 +48,9 @@ const Navigation = () => {
                         {/* </OverlayTrigger> */}
                     </Col>
                     <Col md={4} className="text-md-center">
-                        <Link to="#" className="btn btn-white my-md-0 my-3">
-                            View All
-                        </Link>
+                        <a href="https://calendly.com/elegan/discover" className="btn btn-white my-md-0 my-3">
+                            Get started
+                        </a>
                     </Col>
                     <Col md={4} sm={6} className="text-md-end">
                         {/* <OverlayTrigger placement="top" overlay={DesktopPopover}> */}

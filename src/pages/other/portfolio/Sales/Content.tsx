@@ -26,7 +26,7 @@ const Content = ({ workImages }: ContentProps) => {
                             />
 
                             <figcaption className="figure-caption text-center">
-                                These two formats were migrated instantly with Elegan
+                                These three formats were migrated instantly with Elegan
                             </figcaption>
                         </figure>
                     </Col>

@@ -11,33 +11,38 @@ const Customization = () => {
                     <Col xs={12}>
                         <Card>
                             <Card.Body>
-                                <h4 className="my-0">Customization</h4>
+                                <h4 className="my-0">Testing Your Importer</h4>
 
                                 <p className="mt-2">
-                                    Prompt allows you to easily customize the styling as well as content of the common
-                                    elements including top navbar or heros.
+                                    It's important to check that everything is working smoothly.
                                 </p>
 
-                                <h5 className="mt-4">Customize Styling (SCSS)</h5>
-
-                                <p className="mb-1">
-                                    Prompt comes with the power of Sass (scss). Scss lets you use features that don't
-                                    exist in CSS yet like variables, nesting, mixins, inheritance and other nifty
-                                    goodies that make writing CSS fun again.
+                                <p className="mt-2">
+                                    An easy way to test is to use some sample original customer data. Data in a typical format that you would accept, before they or you have done changes to make it fit your system.
                                 </p>
 
-                                <p className="mb-1">
-                                    You can easily modify the themes by simply changing few variables. You even don't
-                                    need to change anything in Prompt's source code. You can easily defined the override
-                                    variables in <code>src/assets/scss/skins/default</code>.
+                                <h5 className="mt-4">Locate the importer</h5>
+
+                                <p>
+                                    Navigate to the home page, and find the importer you created.
                                 </p>
 
                                 <p>
-                                    You can even create a completely new theme by simply copying the{' '}
-                                    <code>src/assets/scss/skins/default</code> folder and then override the values
-                                    available in the file <code>_variable.scss</code> or{' '}
-                                    <code>_custom-variables.scss</code>.
+                                    Click "Show Code"
                                 </p>
+
+                                <h5 className="mt-4">Open the importer</h5>
+
+                                <p>
+                                   A black box pops up with some code. Find the src url. It will something like this:
+                                </p>
+
+                                <p>src="https://domain.com/flow?xyz"</p>
+
+                                <p>Copy the url after the src= and paste it into a browser tab.</p>
+
+                                <p>Now you can go through the steps and use the importer as if you were a customer.</p>
+                            
                             </Card.Body>
                         </Card>
                     </Col>

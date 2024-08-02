@@ -38,7 +38,7 @@ const Content = ({ workImages }: ContentProps) => {
                         <div className="pe-4">
                             <h3>About Migration</h3>
                             <p>
-                               Our model impressed us with this one. Not only was it able to identify that "Annual Dep" was a depreciation metric, but it also undertood that the output file of current value, required the calculation wth depreciation rate, date, current price and purchase date.
+                               This was a clean transformation. Not only was it able to identify that "Annual Dep" was a depreciation metric, but it also undertood that the output file of current value, required the calculation wth depreciation rate, date, current price and purchase date.
                             </p>
                         </div>
                     </Col>

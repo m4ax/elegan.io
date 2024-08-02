@@ -53,7 +53,7 @@ const FAQContent = () => {
         },
         {
             question: "Why can't I build this internally?",
-            ans: "You can build a simple manual importer. We help those who want excellent customer experience, and they want it now.",
+            ans: "You can build a simple manual importer. We help those who want an excellent customer experience, and they want it now.",
         },
     ];
 

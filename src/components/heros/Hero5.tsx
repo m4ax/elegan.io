@@ -19,7 +19,7 @@ const Hero5 = () => {
                             data-aos="fade-right"
                             data-aos-duration="1000"
                         >
-                            <Link to="#">
+                           <Link to="/data-importing/sales-software">
                                 <div className="d-flex align-items-center">
                                     <Badge pill bg="under" className="px-2 py-1">
                                         New!
@@ -38,10 +38,10 @@ const Hero5 = () => {
                            You control your customers journey, don't make it difficult.
                         </p>
 
-                <a href="#try" className="btn btn-secondary">
+                {/* <a href="#try" className="btn btn-secondary">
     <FeatherIcon icon="arrow-down" className="icon-xxs me-2" />
     Try Yourself
-</a>
+</a> */}
 
                         <a href="https://calendly.com/elegan/discover" target="_blank" rel="noreferrer" className="btn btn-outline-secondary ms-2">
                             Learn More

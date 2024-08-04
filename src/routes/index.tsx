@@ -129,7 +129,6 @@ const AllRoutes = () => {
                         { path: 'routing', element: <LoadComponent component={Routing} /> },
                         { path: 'code-spliting', element: <LoadComponent component={CodeSpliting} /> },
                         { path: 'change-log', element: <LoadComponent component={ChangeLog} /> },
-
                         { path: 'colors', element: <LoadComponent component={Colors} /> },
                         { path: 'typography', element: <LoadComponent component={Typography} /> },
                         { path: 'bootstrap', element: <LoadComponent component={Bootstrap} /> },
@@ -147,45 +146,11 @@ const AllRoutes = () => {
                     path: 'embed-csv-importer',
                     element: <LoadComponent component={Startup} />,
                 },
-                {
-                    path: 'landing',
-                    children: [
-                        { path: 'app', element: <LoadComponent component={App} /> },
-                        { path: 'saas', element: <LoadComponent component={Saas} /> },
-                        { path: 'saas2', element: <LoadComponent component={Saas2} /> },
-                        { path: 'startup', element: <LoadComponent component={Startup} /> },
-                        { path: 'software', element: <LoadComponent component={Software} /> },
-
-                        { path: 'agency', element: <LoadComponent component={Agency} /> },
-                        { path: 'coworking', element: <LoadComponent component={Coworking} /> },
-                        { path: 'crypto', element: <LoadComponent component={Crypto} /> },
-                        { path: 'marketing', element: <LoadComponent component={Marketing} /> },
-                        { path: 'portfolio', element: <LoadComponent component={Portfolio} /> },
-                    ],
-                },
-                {
+                                {
                     path: 'pages',
                     children: [
-                        {
-                            path: 'blog',
-                            children: [
-                                { path: '', element: <LoadComponent component={Blog} /> },
-                                { path: 'post', element: <LoadComponent component={BlogPost} /> },
-                            ],
-                        },
-                        { path: 'company', element: <LoadComponent component={Company} /> },
                         { path: 'contact', element: <LoadComponent component={Contact} /> },
-                        { path: 'career', element: <LoadComponent component={Career} /> },
                         { path: 'pricing', element: <LoadComponent component={Pricing} /> },
-                        {
-                            path: 'portfolio',
-                            children: [
-                                { path: 'grid', element: <LoadComponent component={PortfolioGrid} /> },
-                                { path: 'masonry', element: <LoadComponent component={PortfolioMasonry} /> },
-                                { path: 'item', element: <LoadComponent component={PortfolioItem} /> },
-                            ],
-                        },
-                        { path: 'help', element: <LoadComponent component={HelpDesk} /> },
                     ]
                 },
             ],
